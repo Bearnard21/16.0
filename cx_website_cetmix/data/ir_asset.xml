@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+
+<record id="cx_website_cetmix.primary_variables_scss" model="theme.ir.asset">
+    <field name="key">cx_website_cetmix.primary_variables_scss</field>
+    <field name="name">Primary variables SCSS</field>
+    <field name="bundle">web._assets_primary_variables</field>
+    <field name="path">cx_website_cetmix/static/src/scss/primary_variables.scss</field>
+</record>
+
+
+
+</odoo>

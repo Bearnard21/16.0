@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<odoo>
+    <template inherit_id="website.placeholder_header_call_to_action" name="Header Call to Action" active="True">
+        <xpath expr="." position="inside">
+            <div t-attf-class="oe_structure oe_structure_solo #{_div_classes}" class="oe_structure oe_structure_solo ms-2">
+                <section class="s_text_block o_colored_level" data-snippet="s_text_block" data-name="Text" style="background-image: none;">
+                    <div class="container">
+                        <a href="/contactus" class="_cta btn btn-fill-primary rounded-circle" data-bs-original-title="" title="">Contact Us</a>
+                    </div>
+                </section>
+            </div>
+        </xpath>
+    </template>
+</odoo>

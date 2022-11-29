@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<odoo>
+    <template id="custom_header" inherit_id="website.layout" name="Custom Header">
+        <xpath expr="//header" position="replace">
+            <header>
+                <nav class="navbar navbar-expand-lg navbar-light bg-light py-3">
+                    <div class="container">
+                            <ul class="navbar-nav mr-auto my-2 my-lg-0 navbar-nav-scroll" style="max-height: 100px;">
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#">Home <span class="sr-only">(current)</span> </a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#">Why Cetmix?</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#">Why Odoo?</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#">Our Solutions</a>
+                                </li>                            
+                            </ul>
+                        
+                        <div class="navbar-brand flex-grow-0" >
+                            <a t-attf-class="navbar-brand" href="#">
+                                <img style="height:50px; widht:auto;" src="/cx_website_cetmix/static/src/img/L_white.jpg"/>
+                            </a>
+                        </div>
+
+                        <div>
+                            <a href="/contactus" class="_cta btn btn-fill-primary rounded-circle" data-bs-original-title="" title="">Contact Us</a>
+                        </div>
+ 
+                    </div>    
+                </nav>
+            </header>
+        </xpath>
+    </template>
+</odoo>

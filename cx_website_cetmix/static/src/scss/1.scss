@@ -1,0 +1,18 @@
+$o-theme-font-configs: (
+    'Ubuntu': (
+        'family': ('Ubuntu'),
+        'url': 'Ubuntu:300,300i,400,400i,500,500i,700,700i',
+
+    ),
+) !default;
+
+$o-website-values-palettes: (
+    (
+        // Fonts
+        'font': 'Ubuntu',
+        'headings-font': 'Ubuntu',
+        'navbar-font': 'Ubuntu',
+        'buttons-font': 'Ubuntu',
+    ),
+);
+
