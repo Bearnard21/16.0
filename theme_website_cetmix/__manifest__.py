@@ -12,9 +12,9 @@
     ],
     "external_dependencies": {},
     "data": [
+        "views/cx_cetmix.xml",
         "data/data.xml",
         "views/cx_header.xml",
-        #"views/cx_cetmix.xml",
         "views/cx_homepage.xml",
     ],
     "assets": {
