@@ -1,6 +1,6 @@
 <odoo>
     <record id="why_cetmix" model="ir.ui.view">
-        <field name="name">Why Cetmix</field>
+        <field name="name">Why Cetmix?</field>
         <field name="type">qweb</field>
         <field name="key">theme_website_cetmix.why_cetmix</field>
         <field name="arch" type="xml">
@@ -20,9 +20,9 @@
                         >
                             <span
                                     class="s_parallax_bg oe_img_bg o_bg_img_center"
-                                    style="background-image: url(&quot;/unsplash/D46mXLsQRJw/465/construction.jpg?unique=071e11ab&quot;); top: -129.75px; bottom: -129.75px; transform: translateY(-123px); background-position: 50% 0px;"
+                                    style="background-image: url(/theme_website_cetmix/static/img/cetmix_cover_1_1.jpg); top: -129.75px; bottom: -129.75px; transform: translateY(-123px); background-position: 50% 0px;"
                                     data-original-id="464"
-                                    data-original-src="/unsplash/D46mXLsQRJw/construction.jpg?unique=eacfb4bb"
+                                    data-original-src="/theme_website_cetmix/static/img/home_cover_1_1.jpg"
                                     data-mimetype="image/jpeg"
                                     data-resize-width="1920"
                             />
@@ -519,11 +519,11 @@
                                                 style="background-color: rgb(181, 165, 214) !important;"
                                         >
                                             <img
-                                                    src="/unsplash/dcL8ESbsGis/597/business.jpg?unique=cd1cdb32"
-                                                    alt="low angle photography of architectural building"
+                                                    src="/theme_website_cetmix/static/img/cetmix_column_1_1.jpg"
+                                                    alt=""
                                                     class="card-img-top img img-fluid o_we_custom_image o_we_image_cropped"
                                                     data-original-id="593"
-                                                    data-original-src="/unsplash/dcL8ESbsGis/business.jpg?unique=6a32e190"
+                                                    data-original-src="/theme_website_cetmix/static/img/cetmix_column_1_1.jpg"
                                                     data-mimetype="image/jpeg"
                                                     data-y="147.40740740740742"
                                                     data-width="1920"
@@ -558,11 +558,11 @@
                                                 style="background-color: rgb(181, 165, 214) !important;"
                                         >
                                             <img
-                                                    src="/unsplash/FlPc9_VocJ4/596/trust.jpg?unique=876ad885"
-                                                    alt="person using laptop"
+                                                    src="/theme_website_cetmix/static/img/cetmix_column_1_2.jpg"
+                                                    alt=""
                                                     class="card-img-top img img-fluid o_we_custom_image o_we_image_cropped"
                                                     data-original-id="595"
-                                                    data-original-src="/unsplash/FlPc9_VocJ4/trust.jpg?unique=4cbc548a"
+                                                    data-original-src="/theme_website_cetmix/static/img/cetmix_column_1_2.jpg"
                                                     data-mimetype="image/jpeg"
                                                     style=""
                                                     data-y="163.20987654320987"
@@ -601,11 +601,11 @@
                                                 style="background-color: rgb(181, 165, 214) !important;"
                                         >
                                             <img
-                                                    src="/unsplash/SLIFI67jv5k/598/industry.jpg?unique=fcb54bd0"
-                                                    alt="black metal empty building"
+                                                    src="/theme_website_cetmix/static/img/cetmix_column_1_3.jpg"
+                                                    alt=""
                                                     class="card-img-top img img-fluid o_we_custom_image o_we_image_cropped"
                                                     data-original-id="594"
-                                                    data-original-src="/unsplash/SLIFI67jv5k/industry.jpg?unique=6d401cd6"
+                                                    data-original-src="/theme_website_cetmix/static/img/cetmix_column_1_3.jpg"
                                                     data-mimetype="image/jpeg"
                                                     data-y="195.99999999999983"
                                                     data-width="1920"
