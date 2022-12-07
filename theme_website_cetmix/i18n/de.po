@@ -1,0 +1,209 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* cetmix_website_new
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 13.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-09-05 14:42+0000\n"
+"PO-Revision-Date: 2020-09-05 17:43+0300\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: \n"
+"Language: de\n"
+"X-Generator: Poedit 2.4.1\n"
+
+#. module: cetmix_website_new
+#: model_terms:ir.ui.view,arch_db:cetmix_website_new.cetmix_block_summary
+msgid "100+"
+msgstr ""
+
+#. module: cetmix_website_new
+#: model_terms:ir.ui.view,arch_db:cetmix_website_new.cetmix_block_services
+msgid ""
+"24/7 technical support and maintenance<br/>We speak English, German and Russian<br/>Your "
+"timezone does not matter"
+msgstr ""
+
+#. module: cetmix_website_new
+#: model_terms:ir.ui.view,arch_db:cetmix_website_new.cetmix_block_summary
+msgid "30+"
+msgstr ""
+
+#. module: cetmix_website_new
+#: model_terms:ir.ui.view,arch_db:cetmix_website_new.cetmix_block_summary
+msgid "8500+"
+msgstr ""
+
+#. module: cetmix_website_new
+#: model_terms:ir.ui.view,arch_db:cetmix_website_new.cetmix_footer
+msgid "<i class=\"fa fa-map-marker fa-fw\" role=\"img\" aria-label=\"Address\" title=\"Address\"/>"
+msgstr ""
+
+#. module: cetmix_website_new
+#: model_terms:ir.ui.view,arch_db:cetmix_website_new.cetmix_footer
+msgid ""
+"<i class=\"fa fa-phone fa-fw\" role=\"img\" aria-label=\"Phone\" title=\"Phone\"/> +372 602 8500"
+msgstr ""
+
+#. module: cetmix_website_new
+#: model_terms:ir.ui.view,arch_db:cetmix_website_new.cetmix_block_summary
+msgid "App downloads<br/> from Odoo App Store"
+msgstr ""
+
+#. module: cetmix_website_new
+#: model_terms:ir.ui.view,arch_db:cetmix_website_new.cetmix_block_services
+msgid "Ask us before you take a decision that can really affect your business processes"
+msgstr ""
+
+#. module: cetmix_website_new
+#: model_terms:ir.ui.view,arch_db:cetmix_website_new.cetmix_block_our_apps
+msgid "Check out our Apps!"
+msgstr ""
+
+#. module: cetmix_website_new
+#: model_terms:ir.ui.view,arch_db:cetmix_website_new.cetmix_footer
+msgid "Contact us"
+msgstr ""
+
+#. module: cetmix_website_new
+#: model_terms:ir.ui.view,arch_db:cetmix_website_new.cetmix_block_summary
+msgid "Countries"
+msgstr ""
+
+#. module: cetmix_website_new
+#: model_terms:ir.ui.view,arch_db:cetmix_website_new.cetmix_block_summary
+msgid "Customers"
+msgstr ""
+
+#. module: cetmix_website_new
+#: model_terms:ir.ui.view,arch_db:cetmix_website_new.cetmix_header
+msgid ""
+"ERP Solutions<br/>\n"
+"                                for real business"
+msgstr ""
+
+#. module: cetmix_website_new
+#: model_terms:ir.ui.view,arch_db:cetmix_website_new.cetmix_block_demo
+msgid ""
+"Free demo\n"
+"                                    <i class=\"fa fa-2x fa-long-arrow-right ml-4 align-middle\"/>"
+msgstr ""
+
+#. module: cetmix_website_new
+#: model_terms:ir.ui.view,arch_db:cetmix_website_new.cetmix_block_our_apps
+msgid "In Odoo App Store"
+msgstr ""
+
+#. module: cetmix_website_new
+#: model_terms:ir.ui.view,arch_db:cetmix_website_new.cetmix_footer
+msgid "Odoo Logo"
+msgstr ""
+
+#. module: cetmix_website_new
+#: model_terms:ir.ui.view,arch_db:cetmix_website_new.cetmix_block_services
+msgid "Odoo<br/>Consulting"
+msgstr ""
+
+#. module: cetmix_website_new
+#: model_terms:ir.ui.view,arch_db:cetmix_website_new.cetmix_block_services
+msgid "Odoo<br/>Development"
+msgstr "Odoo<br/>Entwicklung"
+
+#. module: cetmix_website_new
+#: model_terms:ir.ui.view,arch_db:cetmix_website_new.cetmix_block_services
+msgid "Odoo<br/>Implementation"
+msgstr ""
+
+#. module: cetmix_website_new
+#: model_terms:ir.ui.view,arch_db:cetmix_website_new.cetmix_block_services
+msgid "Odoo<br/>Support"
+msgstr ""
+
+#. module: cetmix_website_new
+#: model_terms:ir.ui.view,arch_db:cetmix_website_new.cetmix_block_our_apps
+msgid ""
+"Our Apps\n"
+"                                    <i class=\"fa fa-2x fa-long-arrow-right ml-4 align-middle\"/>"
+msgstr ""
+"Unsere Apps\n"
+"                                    <i class=\"fa fa-2x fa-long-arrow-right ml-4 align-middle\"/>"
+
+#. module: cetmix_website_new
+#: model_terms:ir.ui.view,arch_db:cetmix_website_new.cetmix_block_services
+msgid "Our Services"
+msgstr ""
+
+#. module: cetmix_website_new
+#: model_terms:ir.ui.view,arch_db:cetmix_website_new.cetmix_footer
+msgid "Powered by"
+msgstr ""
+
+#. module: cetmix_website_new
+#: model_terms:ir.ui.view,arch_db:cetmix_website_new.cetmix_footer
+msgid "Sepapaja 6, 15551 Tallinn, Estonia"
+msgstr ""
+
+#. module: cetmix_website_new
+#: model_terms:ir.ui.view,arch_db:cetmix_website_new.cetmix_block_services
+msgid ""
+"There are real life business processes behind every line of code<br/>Collaborate with developers "
+"who really understand what they are actually developing"
+msgstr ""
+
+#. module: cetmix_website_new
+#: model_terms:ir.ui.view,arch_db:cetmix_website_new.cetmix_block_demo
+msgid "Try on our demo server or request personal demo"
+msgstr ""
+
+#. module: cetmix_website_new
+#: model_terms:ir.ui.view,arch_db:cetmix_website_new.cetmix_block_demo
+msgid "Use demo instance to try our Odoo Apps!"
+msgstr ""
+
+#. module: cetmix_website_new
+#: model_terms:ir.ui.view,arch_db:cetmix_website_new.cetmix_block_services
+msgid ""
+"Use the power and flexibility of Odoo with our knowledge and experience to boost up your business"
+msgstr ""
+
+#. module: cetmix_website_new
+#: model_terms:ir.ui.view,arch_db:cetmix_website_new.cetmix_block_why_cetmix
+msgid "We are more than just another software developers with Odoo skills"
+msgstr ""
+
+#. module: cetmix_website_new
+#: model_terms:ir.ui.view,arch_db:cetmix_website_new.cetmix_block_why_cetmix
+msgid "We are using Odoo to manage our own projects"
+msgstr ""
+
+#. module: cetmix_website_new
+#: model_terms:ir.ui.view,arch_db:cetmix_website_new.cetmix_block_why_cetmix
+msgid "We came from heavy industry, machinery and logistic businesses"
+msgstr ""
+
+#. module: cetmix_website_new
+#: model_terms:ir.ui.view,arch_db:cetmix_website_new.cetmix_block_why_cetmix
+msgid "We have more than 20 years of business experience"
+msgstr ""
+
+#. module: cetmix_website_new
+#: model_terms:ir.ui.view,arch_db:cetmix_website_new.cetmix_block_why_cetmix
+msgid "Why Cetmix?"
+msgstr "Warum Cetmix?"
+
+#. module: cetmix_website_new
+#: model_terms:ir.ui.view,arch_db:cetmix_website_new.cetmix_block_summary
+msgid ""
+"Years of Odoo<br/>\n"
+"                                experience"
+msgstr ""
+
+#. module: cetmix_website_new
+#: model_terms:ir.ui.view,arch_db:cetmix_website_new.cetmix_footer
+msgid "odoo"
+msgstr ""

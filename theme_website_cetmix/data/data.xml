@@ -1,0 +1,43 @@
+<odoo noupdate="0">
+    <record id="website.default_website" model="website">
+        <field name="theme_id" ref="base.module_theme_website_cetmix" />
+        <field
+            name="logo"
+            type="base64"
+            file="theme_website_cetmix/static/img/header_1_1.svg"
+        />
+    </record>
+
+     
+   <function model="ir.model.data" name="_update_xmlids">
+       <value model="base" eval="[{
+               'xml_id': 'theme_website_cetmix.current_website',
+               'record': obj().env['website'].get_current_website(),
+               'noupdate': True,
+           }]"/>
+   </function>
+
+    <!-- Pages -->
+    <!-- <record id="about" model="website.page">
+        <field name="url">/why_cetmix</field>
+        <field name="is_published">True</field>
+        <field name="view_id" ref="theme_website_cetmix.why_cetmix"/>
+        <field name="track">True</field>
+    </record> -->
+
+    <!-- Menus -->
+    <record id="menu_cetmix" model="website.menu">
+        <field name="name">Why Cetmix?</field>
+        <field name="url">/about</field>
+        <field name="page_id" ref="website.about" />
+        <field name="parent_id" ref="website.main_menu"/>
+        <field name="sequence" type="int">60</field>
+    </record>
+    <function name="unlink" model="website.menu">
+        <value
+        model="website.menu"
+        eval="obj().env.ref('website.menu_contactus').id"/>
+    </function>
+
+
+</odoo>
