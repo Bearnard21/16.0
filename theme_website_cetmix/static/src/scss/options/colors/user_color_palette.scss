@@ -1,0 +1,22 @@
+$o-user-color-palette: map-merge(
+    $o-user-color-palette,
+    o-map-omit(
+        (
+            "o-cc3-btn-primary": "o-color-4",
+            "o-cc4-bg": "o-color-4",
+            "o-cc5-btn-primary": "o-color-4",
+            "o-cc2-btn-primary": "o-color-2",
+            "o-cc2-headings": "o-color-2",
+            "o-cc1-btn-primary-border": null,
+            "o-cc1-btn-primary": "o-color-2",
+            "o-cc1-text": "o-color-5",
+            "o-cc1-bg": null,
+            "o-cc1-link": "o-color-5",
+            "o-cc1-headings": "o-color-2",
+            "o-cc1-btn-secondary": "o-color-4",
+            "o-cc4-btn-secondary": "o-color-2",
+            "o-cc1-btn-secondary-border": "o-color-2",
+            // -- hook --
+        )
+    )
+);

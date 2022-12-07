@@ -1,0 +1,688 @@
+<odoo>
+    <record id="why_cetmix" model="ir.ui.view">
+        <field name="name">Why Cetmix</field>
+        <field name="type">qweb</field>
+        <field name="key">theme_website_cetmix.why_cetmix</field>
+        <field name="arch" type="xml">
+            <t name="Why Cetmix" priority="29" t-name="theme_website_cetmix.why_cetmix">
+                <t t-call="website.layout">
+                    <div id="wrap" class="oe_structure oe_empty">
+                        <section
+                                class="s_cover parallax bg-black-50 o_colored_level pb256 pt232"
+                                data-scroll-background-ratio="1.5"
+                                data-snippet="s_cover"
+                                style="background-image: none; position: relative;"
+                                data-bs-original-title=""
+                                title=""
+                                aria-describedby="tooltip993469"
+                                data-name="Custom Cover (2)"
+                                data-oe-shape-data="{&quot;shape&quot;:&quot;web_editor/Origins/11_001&quot;,&quot;colors&quot;:{&quot;c3&quot;:&quot;#FFFFFF&quot;,&quot;c4&quot;:&quot;#FFFFFF&quot;},&quot;flip&quot;:[]}"
+                        >
+                            <span
+                                    class="s_parallax_bg oe_img_bg o_bg_img_center"
+                                    style="background-image: url(&quot;/unsplash/D46mXLsQRJw/465/construction.jpg?unique=071e11ab&quot;); top: -129.75px; bottom: -129.75px; transform: translateY(-123px); background-position: 50% 0px;"
+                                    data-original-id="464"
+                                    data-original-src="/unsplash/D46mXLsQRJw/construction.jpg?unique=eacfb4bb"
+                                    data-mimetype="image/jpeg"
+                                    data-resize-width="1920"
+                            />
+                            <div class="o_we_bg_filter bg-black-50"/>
+                            <div
+                                    class="o_we_shape o_web_editor_Origins_11_001"
+                                    style="background-image: url(&quot;/web_editor/shape/web_editor/Origins/11_001.svg?c3=%23FFFFFF&amp;c4=%23FFFFFF&quot;);"
+                            />
+                            <div class="s_allow_columns container">
+                                <div class="row o_grid_mode" style="" data-row-count="5">
+                                    <div
+                                            class="o_grid_item g-col-lg-12 g-height-5 col-lg-12 o_colored_level o_anim_fade_in o_animate o_visible"
+                                            style="grid-row-start: 1; grid-column-start: 1; grid-row-end: 6; grid-column-end: 13; z-index: 1;"
+                                            data-bs-original-title=""
+                                            title=""
+                                            aria-describedby="tooltip340120"
+                                    >
+                                        <h1
+                                                style="text-align: left;"
+                                        >CETMIX IS NOT JUST ANOTHER IT COMPANY &amp;gt;
+                                        </h1>
+                                        <h4
+                                        >We know how the business works. Our experts have&amp;nbsp;management experience
+                                            in
+                                            heavy machinery, &amp;nbsp;energy sector, logistics, accounting,&amp;nbsp;public
+                                            services, and many other industries _
+                                        </h4>
+                                        <h4>
+                                            <br/>
+                                        </h4>
+                                        <h6>&amp;nbsp;
+                                            <font
+                                                    style=""
+                                                    class="text-black o_default_snippet_text"
+                                            >​
+                                            </font>
+                                        </h6>
+                                        <h4
+                                                style="text-align: left;"
+                                                class="o_default_snippet_text"
+                                        >We are the people of business
+                                        </h4>
+                                        <h4 style="text-align: left;">
+                                            <br/>
+                                        </h4>
+                                        <h4
+                                                style="text-align: left;"
+                                                data-bs-original-title=""
+                                                title=""
+                                                aria-describedby="tooltip122394"
+                                        >
+                                            <br/>
+                                        </h4>
+                                    </div>
+                                </div>
+                            </div>
+                        </section>
+                        <section
+                                class="s_text_image o_colored_level pt0 pb0"
+                                data-snippet="s_image_text"
+                                style="background-image: none;"
+                                data-name="Custom Image - Text"
+                        >
+                            <div class="container">
+                                <div class="row align-items-center">
+                                    <div class="o_colored_level offset-lg-2 pb16 col-lg-8 pt0" style="">
+                                        <h1 style="text-align: center;">​&amp;nbsp;</h1>
+                                        <h1 style="text-align: center;">MILESTONES _</h1>
+                                    </div>
+                                </div>
+                            </div>
+                        </section>
+                        <section
+                                class="s_timeline pb48 o_colored_level pt0"
+                                data-snippet="s_timeline"
+                                data-name="Timeline"
+                                style="background-image: none; position: relative;"
+                        >
+                            <div class="s_timeline_line container">
+                                <div class="s_timeline_row d-block d-md-flex flex-row" data-name="Row">
+                                    <div class="s_timeline_date">
+                                        <span class="bg-white">
+                                            <b>
+                                            </b>
+                                            <span style="font-size: 24px;">2013</span>
+                                            <b>
+                                            </b>
+                                        </span>
+                                        <br/>
+                                    </div>
+                                    <div class="s_timeline_content d-flex">
+                                        <div
+                                                class="s_timeline_card s_card card bg-white w-100"
+                                                data-name="Card"
+                                                data-snippet="s_card"
+                                        >
+                                            <div class="card-body">
+                                                <h4 class="card-title">ERP solution
+                                                    <br/>
+                                                </h4>
+                                                <p class="card-text">
+                                                    <span
+                                                            style="font-size: 18px;"
+                                                    >Heavy machinery manufacturing company &amp;nbsp;
+                                                    </span>
+                                                    <br/>
+                                                </p>
+                                            </div>
+                                        </div>
+                                        <span
+                                                class="fa fa-gear bg-secondary rounded-circle s_timeline_icon text-o-color-4 fa-1x"
+                                        />
+                                    </div>
+                                    <div class="s_timeline_content"/>
+                                </div>
+                                <div class="s_timeline_row d-block d-md-flex flex-row" data-name="Row">
+                                    <div class="s_timeline_date">
+                                        <span class="bg-white">
+                                            <b>
+                                            </b>
+                                            <span style="font-size: 24px;">2014</span>
+                                            <b>
+                                            </b>
+                                        </span>
+                                        <br/>
+                                    </div>
+                                    <div class="s_timeline_content d-flex">
+                                        <div
+                                                class="s_timeline_card s_card card bg-white w-100"
+                                                data-name="Card"
+                                                data-snippet="s_card"
+                                        >
+                                            <div class="card-body">
+                                                <h4 class="card-title">CRM and Field services implementation
+                                                    <br
+                                                    />
+                                                </h4>
+                                                <p class="card-text">
+                                                    <span style="font-size: 18px;">Workshop​</span>
+                                                    <br/>
+                                                </p>
+                                            </div>
+                                        </div>
+                                        <span
+                                                class="fa fa-wrench bg-secondary rounded-circle s_timeline_icon fa-1x text-o-color-4"
+                                        />
+                                    </div>
+                                    <div class="s_timeline_content"/>
+                                </div>
+                                <div class="s_timeline_row d-block d-md-flex flex-row" data-name="Row">
+                                    <div class="s_timeline_date">
+                                        <span class="bg-white">
+                                            <b>
+                                            </b>
+                                            <span style="font-size: 24px;">2015</span>
+                                            <b>
+                                            </b>
+                                        </span>
+                                        <br/>
+                                    </div>
+                                    <div class="s_timeline_content d-flex">
+                                        <div
+                                                class="s_timeline_card s_card card bg-white w-100"
+                                                data-name="Card"
+                                                data-snippet="s_card"
+                                        >
+                                            <div class="card-body">
+                                                <h4 class="card-title">Customized Odoo solution
+                                                    <br/>
+                                                </h4>
+                                                <p>
+                                                    <span style="font-size: 18px;">Public events</span>
+                                                </p>
+                                            </div>
+                                        </div>
+                                        <i
+                                                class="fa fa-child bg-secondary rounded-circle s_timeline_icon fa-1x text-o-color-4"
+                                                data-bs-original-title=""
+                                                title=""
+                                                aria-describedby="tooltip911188"
+                                        />
+                                    </div>
+                                    <div class="s_timeline_content"/>
+                                </div>
+                                <div class="s_timeline_row d-block d-md-flex flex-row" data-name="Row">
+                                    <div class="s_timeline_date">
+                                        <span class="bg-white">
+                                            <b>
+                                            </b>
+                                            <span style="font-size: 24px;">2016</span>
+                                            <b>
+                                            </b>
+                                        </span>
+                                        <br/>
+                                    </div>
+                                    <div class="s_timeline_content d-flex">
+                                        <div
+                                                class="s_timeline_card s_card card bg-white w-100"
+                                                data-name="Card"
+                                                data-snippet="s_card"
+                                        >
+                                            <div class="card-body">
+                                                <h4 class="card-title">Sales, MRP and PLM solutions<span
+                                                        class="oe-tabs"
+                                                        style="width: 23.03125px;"
+                                                ></span>​
+                                                    <br/>
+                                                </h4>
+                                                <p>
+                                                    <span
+                                                            style="font-size: 18px;"
+                                                    >Mining machinery manufacturing company
+                                                    </span>
+                                                </p>
+                                            </div>
+                                        </div>
+                                        <span
+                                                class="fa fa-gears bg-secondary rounded-circle s_timeline_icon fa-1x text-o-color-4"
+                                        />
+                                    </div>
+                                    <div class="s_timeline_content"/>
+                                </div>
+                                <div class="s_timeline_row d-block d-md-flex flex-row" data-name="Row">
+                                    <div class="s_timeline_date">
+                                        <span class="bg-white">
+                                            <b>
+                                            </b>
+                                            <span style="font-size: 24px;">2018</span>
+                                            <b>
+                                            </b>
+                                        </span>
+                                    </div>
+                                    <div class="s_timeline_content d-flex">
+                                        <div
+                                                class="s_timeline_card s_card card bg-white w-100"
+                                                data-name="Card"
+                                                data-snippet="s_card"
+                                        >
+                                            <div class="card-body">
+                                                <p>
+                                                </p>
+                                                <h4>Mail Messages Easy App
+                                                    <br/>
+                                                </h4>
+                                                <p/>
+                                                <p>
+                                                    <span
+                                                            style="font-size: 18px;"
+                                                    >Bringing Odoo messaging to a new level
+                                                    </span>
+                                                </p>
+                                            </div>
+                                        </div>
+                                        <span
+                                                class="fa fa-envelope-o fa-1x bg-secondary rounded-circle s_timeline_icon text-o-color-4"
+                                        />
+                                    </div>
+                                    <div class="s_timeline_content d-flex">
+                                        <span
+                                                class="fa fa-thumbs-o-up bg-secondary s_timeline_icon text-o-color-4 rounded-circle fa-1x"
+                                        />
+                                        <div
+                                                class="s_timeline_card s_card card bg-white w-100"
+                                                data-name="Card"
+                                                data-snippet="s_card"
+                                        >
+                                            <div class="card-body">
+                                                <h4 class="card-text">&amp;gt;4K downloads</h4>
+                                                <p class="card-text">Top third party Odoo App
+                                                    <br/>
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="s_timeline_row d-block d-md-flex flex-row" data-name="Row">
+                                    <div class="s_timeline_date">
+                                        <span class="bg-white">
+                                            <b>
+                                            </b>
+                                            <span style="font-size: 24px;">2019</span>
+                                            <b>
+                                            </b>
+                                        </span>
+                                    </div>
+                                    <div class="s_timeline_content d-flex">
+                                        <div
+                                                class="s_timeline_card s_card card bg-white w-100"
+                                                data-name="Card"
+                                                data-snippet="s_card"
+                                        >
+                                            <div class="card-body">
+                                                <p>
+                                                </p>
+                                                <h4>Odoo PDF attachments preview</h4>
+                                                <p>
+                                                    <span
+                                                            style="font-size: 18px;"
+                                                    >Another app to boost up Odoo
+                                                    </span>
+                                                </p>
+                                                <p/>
+                                                <h4>ERP solutions
+                                                    <br/>
+                                                </h4>
+                                                <p>
+                                                    <span style="font-size: 18px;">
+                                                        <span
+                                                                style="font-size: 18px"
+                                                        >Logistic company, Retail, Manufacturing
+                                                        </span>
+                                                    </span>
+                                                </p>
+                                                <p/>
+                                            </div>
+                                        </div>
+                                        <span
+                                                class="fa fa-file-pdf-o fa-1x bg-secondary rounded-circle s_timeline_icon text-o-color-4"
+                                        />
+                                    </div>
+                                    <div class="s_timeline_content d-flex">
+                                        <span
+                                                class="fa fa-thumbs-o-up bg-secondary s_timeline_icon text-o-color-4 rounded-circle fa-1x"
+                                        />
+                                        <div
+                                                class="s_timeline_card s_card card bg-white w-100"
+                                                data-name="Card"
+                                                data-snippet="s_card"
+                                        >
+                                            <div class="card-body">
+                                                <h4 class="card-text">&amp;gt;8K downloads</h4>
+                                                <p class="card-text">Top third party Odoo App
+                                                    <br/>
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="s_timeline_row d-block d-md-flex flex-row" data-name="Row">
+                                    <div class="s_timeline_date">
+                                        <span class="bg-white">
+                                            <b>
+                                            </b>
+                                            <span style="font-size: 24px;">2020</span>
+                                            <b>
+                                            </b>
+                                        </span>
+                                        <br/>
+                                    </div>
+                                    <div class="s_timeline_content d-flex">
+                                        <div
+                                                class="s_timeline_card s_card card bg-white w-100"
+                                                data-name="Card"
+                                                data-snippet="s_card"
+                                        >
+                                            <div class="card-body">
+                                                <h4 class="card-title">Odoo training​
+                                                    <br/>
+                                                </h4>
+                                                <p>
+                                                    <span
+                                                            style="font-size: 18px;"
+                                                    >Sharing our knowledge and experience
+                                                    </span>
+                                                </p>
+                                            </div>
+                                        </div>
+                                        <span
+                                                class="fa fa-mortar-board bg-secondary rounded-circle s_timeline_icon fa-1x text-o-color-4"
+                                        />
+                                    </div>
+                                    <div class="s_timeline_content"/>
+                                </div>
+                                <div class="s_timeline_row d-block d-md-flex flex-row" data-name="Row">
+                                    <div class="s_timeline_date">
+                                        <span class="bg-white">
+                                            <b>
+                                            </b>
+                                            <span style="font-size: 24px;">2021</span>
+                                            <b>
+                                            </b>
+                                        </span>
+                                        <br/>
+                                    </div>
+                                    <div class="s_timeline_content d-flex">
+                                        <div
+                                                class="s_timeline_card s_card card bg-white w-100"
+                                                data-name="Card"
+                                                data-snippet="s_card"
+                                        >
+                                            <div class="card-body">
+                                                <h4 class="card-title">Mobile App development
+                                                    <br/>
+                                                </h4>
+                                                <p>
+                                                    <span
+                                                            style="font-size: 18px;"
+                                                    >Customer and service apps for Odoo
+                                                    </span>
+                                                </p>
+                                            </div>
+                                        </div>
+                                        <span
+                                                class="fa fa-mobile-phone bg-secondary rounded-circle s_timeline_icon text-o-color-4 fa-1x"
+                                        />
+                                    </div>
+                                    <div class="s_timeline_content"/>
+                                </div>
+                                <div class="s_timeline_row d-block d-md-flex flex-row" data-name="Row">
+                                    <div class="s_timeline_date">
+                                        <span class="bg-white">
+                                            <b>
+                                            </b>
+                                            <span style="font-size: 24px;">2022</span>
+                                            <b>
+                                            </b>
+                                        </span>
+                                        <br/>
+                                    </div>
+                                    <div class="s_timeline_content d-flex">
+                                        <div
+                                                class="s_timeline_card s_card card bg-white w-100"
+                                                data-name="Card"
+                                                data-snippet="s_card"
+                                        >
+                                            <div class="card-body">
+                                                <h4 class="card-title">Accounting solution
+                                                    <br/>
+                                                </h4>
+                                                <p>
+                                                    <span
+                                                            style="font-size: 18px;"
+                                                    >Estonian accounting localization for Odoo CE and EE
+                                                    </span>
+                                                </p>
+                                            </div>
+                                        </div>
+                                        <span
+                                                class="fa fa-euro bg-secondary rounded-circle s_timeline_icon fa-1x text-o-color-4"
+                                        />
+                                    </div>
+                                    <div class="s_timeline_content"/>
+                                </div>
+                                <div
+                                        class="s_timeline_row d-block d-md-flex flex-row-reverse"
+                                        data-name="Row"
+                                >
+                                    <div class="s_timeline_date">
+                                        <span class="bg-white">
+                                            <b>
+                                            </b>
+                                            <span style="font-size: 24px;">2023</span>
+                                            <b>
+                                            </b>
+                                        </span>
+                                    </div>
+                                    <div class="s_timeline_content d-flex">
+                                        <div
+                                                class="s_timeline_card s_card card bg-white w-100"
+                                                data-name="Card"
+                                                data-snippet="s_card"
+                                        >
+                                            <div class="card-body">
+                                                <p class="card-text">Let's boost up together_
+                                                    <br/>
+                                                </p>
+                                            </div>
+                                        </div>
+                                        <span
+                                                class="fa fa-plane bg-secondary rounded-circle s_timeline_icon fa-1x text-o-color-4"
+                                        />
+                                    </div>
+                                    <div class="s_timeline_content"/>
+                                </div>
+                            </div>
+                        </section>
+                        <section
+                                class="s_three_columns pt32 pb32 o_colored_level o_cc o_cc2"
+                                data-vcss="001"
+                                data-snippet="s_three_columns"
+                                style="background-color: rgb(86, 89, 133) !important; background-image: none;"
+                                data-name="Custom Columns"
+                        >
+                            <div class="container-fluid">
+                                <div class="row d-flex align-items-stretch">
+                                    <div
+                                            class="s_col_no_bgcolor pt16 pb16 o_animate o_animate_on_scroll o_anim_fade_in o_anim_from_left col-lg-4"
+                                            style="animation-delay: -0.876219s;"
+                                            data-scroll-zone-start="0"
+                                            data-scroll-zone-end="100"
+                                    >
+                                        <div
+                                                class="card text-bg-white h-100"
+                                                style="background-color: rgb(181, 165, 214) !important;"
+                                        >
+                                            <img
+                                                    src="/unsplash/dcL8ESbsGis/597/business.jpg?unique=cd1cdb32"
+                                                    alt="low angle photography of architectural building"
+                                                    class="card-img-top img img-fluid o_we_custom_image o_we_image_cropped"
+                                                    data-original-id="593"
+                                                    data-original-src="/unsplash/dcL8ESbsGis/business.jpg?unique=6a32e190"
+                                                    data-mimetype="image/jpeg"
+                                                    data-y="147.40740740740742"
+                                                    data-width="1920"
+                                                    data-height="1080"
+                                                    data-scale-x="1"
+                                                    data-scale-y="1"
+                                                    data-aspect-ratio="16/9"
+                                                    loading="eager"
+                                                    style=""
+                                            />
+                                            <div class="card-body">
+                                                <h3 class="card-title">
+                                                    <font class="text-o-color-2">[ Business ]</font>
+                                                </h3>
+                                                <p class="card-text">
+                                                    <span
+                                                            style="font-size: 18px;"
+                                                    >We have more than 20 years of experience in real economy sector
+                                                    </span>
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div
+                                            class="s_col_no_bgcolor pt16 pb16 o_animate o_animate_on_scroll o_anim_fade_in o_anim_from_left col-lg-4"
+                                            style="animation-delay: -0.876219s;"
+                                            data-scroll-zone-start="0"
+                                            data-scroll-zone-end="100"
+                                    >
+                                        <div
+                                                class="card text-bg-white h-100"
+                                                style="background-color: rgb(181, 165, 214) !important;"
+                                        >
+                                            <img
+                                                    src="/unsplash/FlPc9_VocJ4/596/trust.jpg?unique=876ad885"
+                                                    alt="person using laptop"
+                                                    class="card-img-top img img-fluid o_we_custom_image o_we_image_cropped"
+                                                    data-original-id="595"
+                                                    data-original-src="/unsplash/FlPc9_VocJ4/trust.jpg?unique=4cbc548a"
+                                                    data-mimetype="image/jpeg"
+                                                    style=""
+                                                    data-y="163.20987654320987"
+                                                    data-width="1920"
+                                                    data-height="1080"
+                                                    data-scale-x="1"
+                                                    data-scale-y="1"
+                                                    data-aspect-ratio="16/9"
+                                                    data-bs-original-title=""
+                                                    title=""
+                                                    aria-describedby="tooltip330142"
+                                                    loading="eager"
+                                            />
+                                            <div class="card-body">
+                                                <h3 class="card-title">
+                                                    <font class="text-o-color-2">[ Trust ]</font>
+                                                    <br/>
+                                                </h3>
+                                                <p class="card-text"><span
+                                                        style="font-size: 18px;"
+                                                >&amp;gt;15k downloads Odoo apps coded by Cetmix &amp;nbsp;</span>​&amp;nbsp;
+                                                    <br
+                                                    />
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div
+                                            class="s_col_no_bgcolor pt16 pb16 o_animate o_animate_on_scroll o_anim_fade_in o_anim_from_left col-lg-4"
+                                            style="animation-delay: -0.876219s;"
+                                            data-scroll-zone-start="0"
+                                            data-scroll-zone-end="100"
+                                    >
+                                        <div
+                                                class="card text-bg-white h-100"
+                                                style="background-color: rgb(181, 165, 214) !important;"
+                                        >
+                                            <img
+                                                    src="/unsplash/SLIFI67jv5k/598/industry.jpg?unique=fcb54bd0"
+                                                    alt="black metal empty building"
+                                                    class="card-img-top img img-fluid o_we_custom_image o_we_image_cropped"
+                                                    data-original-id="594"
+                                                    data-original-src="/unsplash/SLIFI67jv5k/industry.jpg?unique=6d401cd6"
+                                                    data-mimetype="image/jpeg"
+                                                    data-y="195.99999999999983"
+                                                    data-width="1920"
+                                                    data-height="1080"
+                                                    data-scale-x="1"
+                                                    data-scale-y="1"
+                                                    data-aspect-ratio="16/9"
+                                                    loading="eager"
+                                                    style=""
+                                                    data-bs-original-title=""
+                                                    title=""
+                                                    aria-describedby="tooltip394612"
+                                            />
+                                            <div class="card-body">
+                                                <h3 class="card-title">
+                                                    <font class="text-o-color-2">[ Experience&amp;nbsp;]</font>
+                                                </h3>
+                                                <p class="card-text"><span
+                                                        style="font-size: 18px;"
+                                                >Our team comes from heavy machinery industry, logistics, energy, and
+                                                    financial
+                                                    sectors</span>​
+                                                    <br/>
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </section>
+                        <section
+                                class="s_call_to_action o_colored_level o_cc o_cc1 pt128 pb136"
+                                data-snippet="s_call_to_action"
+                                style="background-image: none; position: relative;"
+                                data-oe-shape-data="{&quot;shape&quot;:&quot;web_editor/Airy/07&quot;,&quot;flip&quot;:[]}"
+                                data-bs-original-title=""
+                                title=""
+                                aria-describedby="tooltip486327"
+                                data-name="Custom Call to Action"
+                        >
+                            <div class="o_we_shape o_web_editor_Airy_07"/>
+                            <div class="container">
+                                <div class="row">
+                                    <div class="col-lg-9 pb16 o_colored_level">
+                                        <h1>FIND A PROPER SOLUTION &amp;gt;</h1>
+                                        <h4>​developed by Cetmix for your Odoo ERP _</h4>
+                                    </div>
+                                    <div
+                                            class="col-lg-3 o_colored_level pt24"
+                                            data-bs-original-title=""
+                                            title=""
+                                            aria-describedby="tooltip811611"
+                                            style=""
+                                    >
+                                        <p
+                                                style="text-align: right;"
+                                                data-bs-original-title=""
+                                                title=""
+                                                aria-describedby="tooltip195038"
+                                        >
+                                            <a
+                                                    class="mb-2 btn btn-outline-custom rounded-circle btn-lg"
+                                                    href="/solutions"
+                                                    data-bs-original-title=""
+                                                    title=""
+                                                    style="border-color: rgb(71, 73, 115); border-width: 1px; border-style: solid;"
+                                            >Discover more
+                                            </a>
+                                            <br/>
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </section>
+                    </div>
+                </t>
+            </t>
+        </field>
+    </record>
+</odoo>

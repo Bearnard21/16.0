@@ -1,0 +1,28 @@
+$o-user-website-values: map-merge(
+    $o-user-website-values,
+    o-map-omit(
+        (
+            "header-template": "centered_logo",
+            "footer-template": "centered",
+            "btn-secondary-outline": true,
+            "font": "Dosis",
+            "google-fonts": (
+                "Ubuntu",
+                "Dosis",
+            ),
+            "google-local-fonts": null,
+            "logo-height": 1.875rem,
+            "fixed-logo-height": 2.1875rem,
+            "menu-gradient": null,
+            "header-boxed-gradient": null,
+            "footer-gradient": null,
+            "copyright-gradient": null,
+            "color-palettes-name": "default-7",
+            "input-font-size": 1.125rem,
+            "btn-font-size": 1.125rem,
+            "header-font-size": 1.125rem,
+            "footer-scrolltop": false,
+            // -- hook --
+        )
+    )
+);
