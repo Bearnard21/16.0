@@ -12,21 +12,21 @@
     <record id="cetmix" model="website.page">
         <field name="url">/why_cetmix</field>
         <field name="is_published">True</field>
-        <field name="view_id" ref="why_cetmix"/>
+        <field name="view_id" ref="why_cetmix" />
         <field name="track">True</field>
     </record>
 
     <record id="odoo" model="website.page">
         <field name="url">/why_odoo</field>
         <field name="is_published">True</field>
-        <field name="view_id" ref="why_odoo"/>
+        <field name="view_id" ref="why_odoo" />
         <field name="track">True</field>
     </record>
 
     <record id="solutions" model="website.page">
         <field name="url">/our_solutions</field>
         <field name="is_published">True</field>
-        <field name="view_id" ref="our_solutions"/>
+        <field name="view_id" ref="our_solutions" />
         <field name="track">True</field>
     </record>
 
@@ -35,7 +35,7 @@
         <field name="name">Why Cetmix?</field>
         <field name="url">/why_cetmix</field>
         <field name="page_id" ref="cetmix" />
-        <field name="parent_id" ref="website.main_menu"/>
+        <field name="parent_id" ref="website.main_menu" />
         <field name="sequence" type="int">60</field>
     </record>
 
@@ -43,7 +43,7 @@
         <field name="name">Why Odoo?</field>
         <field name="url">/why_odoo</field>
         <field name="page_id" ref="odoo" />
-        <field name="parent_id" ref="website.main_menu"/>
+        <field name="parent_id" ref="website.main_menu" />
         <field name="sequence" type="int">61</field>
     </record>
 
@@ -51,7 +51,7 @@
         <field name="name">Our Solutions</field>
         <field name="url">/our_solutions</field>
         <field name="page_id" ref="solutions" />
-        <field name="parent_id" ref="website.main_menu"/>
+        <field name="parent_id" ref="website.main_menu" />
         <field name="sequence" type="int">62</field>
     </record>
 

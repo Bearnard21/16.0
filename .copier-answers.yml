@@ -1,0 +1,23 @@
+# Do NOT update manually; changes here will be overwritten by Copier
+_commit: v1.7.0-65-g8cc395e
+_src_path: https://github.com/cetmix/cetmix-addons-repo-template.git
+ci: GitHub
+dependency_installation_mode: PIP
+generate_requirements_txt: true
+github_check_license: true
+github_enable_codecov: true
+github_enable_makepot: true
+github_enable_stale_action: true
+github_enforce_dev_status_compatibility: true
+include_wkhtmltopdf: true
+odoo_version: 16.0
+org_name: Cetmix
+org_slug: cetmix
+rebel_module_groups: []
+repo_description: Website_Cetmix
+repo_name: Website_Cetmix
+repo_slug: '16.0'
+repo_website: https://cetmix.com
+travis_apt_packages: []
+travis_apt_sources: []
+
