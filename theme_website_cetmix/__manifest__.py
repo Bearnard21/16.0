@@ -13,7 +13,8 @@
     "external_dependencies": {},
     "data": [
         "views/cx_cetmix.xml",
-        "views/cx_odoo.xml",        
+        "views/cx_odoo.xml",
+        "views/cx_solutions.xml",    
         "data/data.xml",
         "views/cx_header.xml",
         "views/cx_homepage.xml",
