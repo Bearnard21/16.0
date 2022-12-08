@@ -68,12 +68,5 @@
 <!--        <field name="sequence" type="int">62</field>-->
 <!--    </record>-->
 
-        <function name="unlink" model="website.menu">
-            <value
-            model="website.menu"
-            eval="obj().env.ref('website.menu_contactus', raise_if_not_found=False)"
-        />
-        </function>
-
 
 </odoo>

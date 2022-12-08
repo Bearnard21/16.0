@@ -12,7 +12,7 @@
                 >
                     <span
                         class="s_parallax_bg oe_img_bg o_bg_img_center"
-                        style="/theme_website_cetmix/static/img/cetmix_cover_1_1.jpg);"
+                        style="background-image: url(/theme_website_cetmix/static/img/cetmix_cover_1_1.jpg);"
                         data-original-id="588"
                         data-original-src="/theme_website_cetmix/static/img/odoo_cover_1_1.jpg"
                         data-mimetype="image/jpeg"
