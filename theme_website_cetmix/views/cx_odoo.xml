@@ -1,603 +1,677 @@
 <odoo>
-    <record id="why_odoo" model="ir.ui.view">
-        <field name="name">Why Odoo?</field>
-        <field name="type">qweb</field>
-        <field name="key">theme_website_cetmix.why_odoo</field>
-        <field name="arch" type="xml">
-            <t t-name="website.odoo">
-            <t t-call="website.layout">
-                <div id="wrap" class="oe_structure oe_empty">
+    <template id="why_odoo" name="Why Odoo">
+        <t t-call="website.layout">
+            <div id="wrap" class="oe_structure oe_empty">
                 <section
-                            class="s_cover parallax bg-black-50 o_colored_level pb256 pt256 s_parallax_is_fixed s_parallax_no_overflow_hidden"
-                            data-scroll-background-ratio="1"
-                            data-snippet="s_cover"
-                            style="background-image: none; position: relative;"
-                            data-oe-shape-data="{&quot;shape&quot;:&quot;web_editor/Origins/11_001&quot;,&quot;colors&quot;:{&quot;c3&quot;:&quot;#FFFFFF&quot;,&quot;c4&quot;:&quot;#FFFFFF&quot;},&quot;flip&quot;:[]}"
-                            data-name="Custom Cover"
-                        >
+                    class="s_cover parallax bg-black-50 o_colored_level pb256 pt256 s_parallax_is_fixed s_parallax_no_overflow_hidden"
+                    data-scroll-background-ratio="1"
+                    data-snippet="s_cover"
+                    style="background-image: none; position: relative;"
+                    data-oe-shape-data="{&quot;shape&quot;:&quot;web_editor/Origins/11_001&quot;,&quot;colors&quot;:{&quot;c3&quot;:&quot;#FFFFFF&quot;,&quot;c4&quot;:&quot;#FFFFFF&quot;},&quot;flip&quot;:[]}"
+                    data-name="Custom Cover"
+                >
                     <span
-                                class="s_parallax_bg oe_img_bg o_bg_img_center"
-                                style="/theme_website_cetmix/static/img/cetmix_cover_1_1.jpg);"
-                                data-original-id="588"
-                                data-original-src="/theme_website_cetmix/static/img/odoo_cover_1_1.jpg"
-                                data-mimetype="image/jpeg"
-                                data-resize-width="1920"
-                                data-gl-filter="custom"
-                                data-filter-options="{&quot;contrast&quot;:&quot;40&quot;,&quot;saturation&quot;:&quot;20&quot;}"
-                            />
+                        class="s_parallax_bg oe_img_bg o_bg_img_center"
+                        style="background-image: url(/theme_website_cetmix/static/img/odoo_cover_1_1.jpg);"
+                        data-original-id="588"
+                        data-original-src="/theme_website_cetmix/static/img/odoo_cover_1_1.jpg"
+                        data-mimetype="image/jpeg"
+                        data-resize-width="1920"
+                        data-gl-filter="custom"
+                        data-filter-options="{&quot;contrast&quot;:&quot;40&quot;,&quot;saturation&quot;:&quot;20&quot;}"
+                    />
                     <div
-                                class="o_we_bg_filter"
-                                style="background-image: linear-gradient(135deg, rgba(37, 40, 45, 0.5) 1%, rgba(95, 126, 200, 0.5) 100%) !important;"
-                            />
+                        class="o_we_bg_filter"
+                        style="background-image: linear-gradient(135deg, rgba(37, 40, 45, 0.5) 1%, rgba(95, 126, 200, 0.5) 100%) !important;"
+                    />
                     <div
-                                class="o_we_shape o_web_editor_Origins_11_001"
-                                style="background-image: url(&quot;/web_editor/shape/web_editor/Origins/11_001.svg?c3=%23FFFFFF&amp;c4=%23FFFFFF&quot;);"
-                            />
+                        class="o_we_shape o_web_editor_Origins_11_001"
+                        style="background-image: url(&quot;/web_editor/shape/web_editor/Origins/11_001.svg?c3=%23FFFFFF&amp;c4=%23FFFFFF&quot;);"
+                    />
                     <div class="s_allow_columns container">
-                    <div class="row">
-                        <div class="o_colored_level pt0 pb4 col-lg-7">
-                        <h4>
-                        </h4>
-                        <h1 style="text-align: left;">OPEN SOURCE ERP &amp;gt;</h1>
-                        <h1 style="text-align: left;">
-                            <span
-                                                style="font-size:18pt;background-color:transparent"
-                                            >is a business solution tailored to your needs _</span>
-                        </h1>
+                        <div class="row">
+                            <div class="o_colored_level pt0 pb4 col-lg-7">
+                                <h4>
+                                </h4>
+                                <h1
+                                    style="text-align: left;"
+                                >OPEN SOURCE ERP &amp;gt;</h1>
+                                <h1 style="text-align: left;">
+                                    <span
+                                        style="font-size:18pt;background-color:transparent"
+                                    >is a business solution tailored to your needs _
+                                    </span>
+                                </h1>
+                            </div>
                         </div>
-                    </div>
                     </div>
                 </section>
                 <section
-                            class="s_text_image pt32 pb32 o_colored_level"
-                            data-snippet="s_image_text"
-                            style="background-image: none; position: relative;"
-                            data-name="Custom Image - Text"
-                        >
+                    class="s_text_image pt32 pb32 o_colored_level"
+                    data-snippet="s_image_text"
+                    style="background-image: none; position: relative;"
+                    data-name="Custom Image - Text"
+                >
                     <div class="container">
-                    <div class="row align-items-center">
-                        <div class="o_colored_level pb16 pt0 col-lg-7" style="">
-                        <p>
-                        </p>
-                        <p>
-                        </p>
-                        <h2>A UNIQUE PROPOSITION /&amp;gt;<br /></h2>
-                        <p>&amp;nbsp;<span
-                                                style="font-size: 18px;"
-                                            >The Odoo family of apps works seamlessly together - giving
-            you the ability to automate and track everything you do - centralized,
-            online, and accessible from anywhere with any device</span>
-                        </p>
-                        <p>
-                            <span
-                                                style="font-size: 18px;"
-                                            >The open-source development model of Odoo
-            has allowed us to leverage thousands of developers and business experts
-            to build the world's largest ecosystem of fully integrated business
-            apps</span>
-                        </p>
-                        <span style="font-size: 18px;">
-                        </span>
-                        <p>
-                            <span
-                                                style="font-size: 18px;"
-                                            >With a modern and elegant technical design, Odoo's framework is unique. It allows us and our community developers to provide top-notch usability that scales across all apps</span>
-                        </p>
-                        <span style="font-size: 18px;">
-                        </span>
-                        <p>
-                            <span
-                                                style="font-size: 18px;"
-                                            >Usability improvements made to Odoo are automatically applied to all of our integrated apps</span>
-                        </p>
-                        <span style="font-size: 18px;">
-                        </span>
-                        <p>
-                            <span
-                                                style="font-size: 18px;"
-                                            >Finally, with regular annual releases, Odoo evolves much faster than any other solution</span>
-                        </p>
-                        </div>
-                        <div class="o_colored_level pb80 col-lg-5 pt72">
-                        <img
-                                            src="/theme_website_cetmix/static/img/odoo_text_1_1.svg"
-                                            alt=""
-                                            class="img img-fluid mx-auto o_we_custom_image"
-                                            data-original-id="666"
-                                            data-original-src="/theme_website_cetmix/static/img/odoo_text_1_1.svg"
-                                            data-mimetype="image/svg+xml"
-                                            data-resize-width="undefined"
-                                            data-bs-original-title=""
-                                            title=""
-                                            aria-describedby="tooltip158826"
-                                            loading="lazy"
-                                            style=""
-                                        />
-                        </div>
-                    </div>
-                    </div>
-                </section>
-                <section
-                            class="s_three_columns pt32 o_colored_level o_cc o_cc2 pb0"
-                            data-vcss="001"
-                            data-snippet="s_three_columns"
-                            style="background-color: rgb(86, 89, 133) !important; background-image: none;"
-                            data-name="Custom Columns"
-                        >
-                    <div class="container-fluid">
-                    <div class="row d-flex align-items-stretch">
-                        <div
-                                        class="s_col_no_bgcolor pt16 pb16 o_animate o_animate_on_scroll o_anim_fade_in o_anim_from_left col-lg-3"
-                                        style="animation-delay: -1.168s;"
-                                        data-scroll-zone-start="0"
-                                        data-scroll-zone-end="100"
-                                    >
-                        <div
-                                            class="card text-bg-white h-100"
-                                            style="background-color: rgb(181, 165, 214) !important;"
-                                        >
-                            <img
-                                                src="/unsplash/lFv0V3_2H6s/456/business building.jpg?unique=5131a0c5"
-                                                alt="architectural photography of building with people in it during nighttime"
-                                                class="card-img-top img img-fluid o_we_custom_image"
-                                                data-original-id="455"
-                                                data-original-src="/unsplash/lFv0V3_2H6s/business building.jpg?unique=2d70d77b"
-                                                data-mimetype="image/jpeg"
-                                                data-resize-width="962"
-                                                loading="eager"
-                                                data-bs-original-title=""
-                                                title=""
-                                                aria-describedby="tooltip177012"
-                                            />
-                            <div class="card-body">
-                            <h3 class="card-title">
-                                <font
-                                                        class="text-o-color-2"
-                                                    >[ Inventory &amp;amp; MRP ]</font>
-                            </h3>
-                            <p class="card-text"><span
-                                                        style="font-size: 18px;"
-                                                    >Inventory</span><br /><span
-                                                        style="font-size: 18px;"
-                                                    >Manufacturing</span><br /><span
-                                                        style="font-size: 18px;"
-                                                    >PLM</span><br /><span
-                                                        style="font-size: 18px;"
-                                                    >Purchase</span><br /><span
-                                                        style="font-size: 18px;"
-                                                    >Maintenance</span><br /><span
-                                                        style="font-size: 18px;"
-                                                    >Quality</span>​
-                            <br /></p>
+                        <div class="row align-items-center">
+                            <div class="o_colored_level pb16 pt0 col-lg-7" style="">
+                                <p>
+                                </p>
+                                <p>
+                                </p>
+                                <h2>A UNIQUE PROPOSITION /&amp;gt;
+                                    <br />
+                                </h2>
+                                <p>&amp;nbsp;
+                                    <span
+                                        style="font-size: 18px;"
+                                    >The Odoo family of apps works seamlessly together - giving
+                                        you the ability to automate and track everything you do - centralized,
+                                        online, and accessible from anywhere with any device
+                                    </span>
+                                </p>
+                                <p>
+                                    <span
+                                        style="font-size: 18px;"
+                                    >The open-source development model of Odoo
+                                        has allowed us to leverage thousands of developers and business experts
+                                        to build the world's largest ecosystem of fully integrated business
+                                        apps
+                                    </span>
+                                </p>
+                                <span style="font-size: 18px;">
+                                </span>
+                                <p>
+                                    <span
+                                        style="font-size: 18px;"
+                                    >With a modern and elegant technical design, Odoo's framework is unique. It allows
+                                        us and our community developers to provide top-notch usability that scales
+                                        across all apps
+                                    </span>
+                                </p>
+                                <span style="font-size: 18px;">
+                                </span>
+                                <p>
+                                    <span
+                                        style="font-size: 18px;"
+                                    >Usability improvements made to Odoo are automatically applied to all of our
+                                        integrated apps
+                                    </span>
+                                </p>
+                                <span style="font-size: 18px;">
+                                </span>
+                                <p>
+                                    <span
+                                        style="font-size: 18px;"
+                                    >Finally, with regular annual releases, Odoo evolves much faster than any other
+                                        solution
+                                    </span>
+                                </p>
                             </div>
-                        </div>
-                        </div>
-                        <div
-                                        class="s_col_no_bgcolor pt16 pb16 o_animate o_animate_on_scroll o_anim_fade_in o_anim_from_left col-lg-3"
-                                        style="animation-delay: -1.168s;"
-                                        data-scroll-zone-start="0"
-                                        data-scroll-zone-end="100"
-                                    >
-                        <div
-                                            class="card text-bg-white h-100"
-                                            style="background-color: rgb(181, 165, 214) !important;"
-                                        >
-                            <img
-                                                src="/theme_website_cetmix/static/img/odoo_column_1_2.jpg"
-                                                alt=""
-                                                class="card-img-top img img-fluid o_we_custom_image o_we_image_cropped"
-                                                data-original-id="610"
-                                                data-original-src="/theme_website_cetmix/static/img/odoo_column_1_2.jpg"
-                                                data-mimetype="image/jpeg"
-                                                data-x="1.5286576785277055e-13"
-                                                data-y="253.3266932270915"
-                                                data-width="1920"
-                                                data-height="1080.0000000000002"
-                                                data-scale-x="1"
-                                                data-scale-y="1"
-                                                data-aspect-ratio="16/9"
-                                                loading="eager"
-                                            />
-                            <div class="card-body">
-                            <h3 class="card-title">
-                                <font class="text-o-color-2">[ Finance ]</font>
-                                <br />
-                            </h3>
-                            <p class="card-text"><span
-                                                        style="font-size: 18px;"
-                                                    >Accounting</span><br /><span
-                                                        style="font-size: 18px;"
-                                                    >Invoicing</span><br /><span
-                                                        style="font-size: 18px;"
-                                                    >Expenses</span><br /><span
-                                                        style="font-size: 18px;"
-                                                    >Spreadsheet (BI)</span><br /><span
-                                                        style="font-size: 18px;"
-                                                    >Documents</span><br /><span
-                                                        style="font-size: 18px;"
-                                                    >Sign</span>​
-                            <br /></p>
-                            </div>
-                        </div>
-                        </div>
-                        <div
-                                        class="s_col_no_bgcolor pt16 pb16 o_animate o_animate_on_scroll o_anim_fade_in o_anim_from_left col-lg-3"
-                                        style="animation-delay: -1.168s;"
-                                        data-scroll-zone-start="0"
-                                        data-scroll-zone-end="100"
-                                    >
-                        <div
-                                            class="card text-bg-white h-100"
-                                            style="background-color: rgb(181, 165, 214) !important;"
-                                        >
-                            <img
-                                                src="/theme_website_cetmix/static/img/odoo_column_1_3.jpg"
-                                                alt=""
-                                                class="card-img-top img img-fluid o_we_custom_image o_we_image_cropped"
-                                                data-original-id="825"
-                                                data-original-src="/theme_website_cetmix/static/img/odoo_column_1_3.jpg"
-                                                data-mimetype="image/jpeg"
-                                                data-bs-original-title=""
-                                                title=""
-                                                aria-describedby="tooltip368197"
-                                                style=""
-                                                data-y="71.30058913934425"
-                                                data-width="1920"
-                                                data-height="1080"
-                                                data-scale-x="1"
-                                                data-scale-y="1"
-                                                data-aspect-ratio="16/9"
-                                                loading="eager"
-                                            />
-                            <div class="card-body">
-                            <h3 class="card-title">
-                                <font class="text-o-color-2">[ Services ]</font>
-                                <br />
-                            </h3>
-                            <p class="card-text"><span
-                                                        style="font-size: 18px;"
-                                                    >Project Management</span><br
-                                                    /><span
-                                                        style="font-size: 18px;"
-                                                    >Planning</span><br /><span
-                                                        style="font-size: 18px;"
-                                                    >Timesheet</span><br /><span
-                                                        style="font-size: 18px;"
-                                                    >Field Service</span><br /><span
-                                                        style="font-size: 18px;"
-                                                    >Helpdesk</span><br /><span
-                                                        style="font-size: 18px;"
-                                                    >Appointments</span>​
-                            <br /></p>
-                            </div>
-                        </div>
-                        </div>
-                        <div
-                                        class="s_col_no_bgcolor pt16 pb16 o_animate o_animate_on_scroll o_anim_fade_in o_anim_from_left col-lg-3"
-                                        style="animation-delay: -1.168s;"
-                                        data-scroll-zone-start="0"
-                                        data-scroll-zone-end="100"
-                                    >
-                        <div
-                                            class="card text-bg-white h-100"
-                                            style="background-color: rgb(181, 165, 214) !important;"
-                                        >
-                            <img
-                                                src="/theme_website_cetmix/static/img/odoo_column_1_4.jpg"
-                                                alt=""
-                                                class="card-img-top img img-fluid o_we_custom_image o_we_image_cropped"
-                                                data-original-id="611"
-                                                data-original-src="/theme_website_cetmix/static/img/odoo_column_1_4.jpg"
-                                                data-mimetype="image/jpeg"
-                                                data-y="100"
-                                                data-width="1920"
-                                                data-height="1080"
-                                                data-scale-x="1"
-                                                data-scale-y="1"
-                                                data-aspect-ratio="16/9"
-                                                loading="eager"
-                                            />
-                            <div class="card-body">
-                            <h3 class="card-title">
-                                <font class="text-o-color-2">[ Productivity ]</font>
-                            </h3>
-                            <p class="card-text"><span
-                                                        style="font-size: 18px;"
-                                                    >Discussions</span><br /><span
-                                                        style="font-size: 18px;"
-                                                    >Approvals</span><br /><span
-                                                        style="font-size: 18px;"
-                                                    >IoT</span><br /><span
-                                                        style="font-size: 18px;"
-                                                    >VolP</span>​
-                            <br /></p>
-                            </div>
-                        </div>
-                        </div>
-                    </div>
-                    </div>
-                </section>
-                <section
-                            class="s_three_columns pb32 o_colored_level o_cc o_cc2 pt0"
-                            data-vcss="001"
-                            data-snippet="s_three_columns"
-                            style="background-color: rgb(86, 89, 133) !important; background-image: none;"
-                            data-name="Custom Columns"
-                        >
-                    <div class="container-fluid">
-                    <div class="row d-flex align-items-stretch">
-                        <div
-                                        class="s_col_no_bgcolor pt16 pb16 o_animate o_animate_on_scroll o_anim_fade_in o_anim_from_left col-lg-3"
-                                        style="animation-delay: -1.25774s;"
-                                        data-scroll-zone-start="0"
-                                        data-scroll-zone-end="100"
-                                    >
-                        <div
-                                            class="card text-bg-white h-100"
-                                            style="background-color: rgb(181, 165, 214) !important;"
-                                        >
-                            <img
-                                                src="/theme_website_cetmix/static/img/odoo_column_2_1.jpg"
-                                                alt=""
-                                                class="card-img-top img img-fluid o_we_custom_image o_we_image_cropped"
-                                                data-original-id="612"
-                                                data-original-src="/theme_website_cetmix/static/img/odoo_column_2_1.jpg"
-                                                data-mimetype="image/jpeg"
-                                                data-y="19.764705882352924"
-                                                data-width="1919.9999999999998"
-                                                data-height="1080"
-                                                data-scale-x="1"
-                                                data-scale-y="1"
-                                                data-aspect-ratio="16/9"
-                                                loading="eager"
-                                            />
-                            <div class="card-body">
-                            <h3 class="card-title">
-                                <font class="text-o-color-2">[ Sales ]</font>
-                            </h3>
-                            <p class="card-text">
-                                <span style="font-size: 18px;">CRM</span>
-                                <br />
-                                <span style="font-size: 18px;">Sales</span>
-                                <br />
-                                <span style="font-size: 18px;">Point of Sale</span>
-                                <br />
-                                <span style="font-size: 18px;">Subscription</span>
-                                <br />
-                                <span style="font-size: 18px;">Rental</span>
-                                <br />
-                                <span style="font-size: 18px;">Amazon connector</span>
-                            </p>
-                            </div>
-                        </div>
-                        </div>
-                        <div
-                                        class="s_col_no_bgcolor pt16 pb16 o_animate o_animate_on_scroll o_anim_fade_in o_anim_from_left col-lg-3"
-                                        style="animation-delay: -1.25774s;"
-                                        data-scroll-zone-start="0"
-                                        data-scroll-zone-end="100"
-                                    >
-                        <div
-                                            class="card text-bg-white h-100"
-                                            style="background-color: rgb(181, 165, 214) !important;"
-                                        >
-                            <img
-                                                src="/theme_website_cetmix/static/img/odoo_column_2_2.jpg"
-                                                alt=""
-                                                class="card-img-top img img-fluid o_we_custom_image o_we_image_cropped"
-                                                data-original-id="613"
-                                                data-original-src="/theme_website_cetmix/static/img/odoo_column_2_2.jpg"
-                                                data-mimetype="image/jpeg"
-                                                data-y="159.1596638655462"
-                                                data-width="1920"
-                                                data-height="1080"
-                                                data-scale-x="1"
-                                                data-scale-y="1"
-                                                data-aspect-ratio="16/9"
-                                                loading="eager"
-                                            />
-                            <div class="card-body">
-                            <h3 class="card-title">
-                                <font class="text-o-color-2">[ Marketing ]</font>
-                                <br />
-                            </h3>
-                            <p class="card-text">
-                                <span
-                                                        style="font-size: 18px; background-color: transparent;"
-                                                    >Marketing automation<br
-                                                        />Surveys<br />Events<br
-                                                        />Social Marketing<br
-                                                        />E-mail Marketing<br
-                                                        />SMS Marketing</span>
-                            </p>
-                            </div>
-                        </div>
-                        </div>
-                        <div
-                                        class="s_col_no_bgcolor pt16 pb16 o_animate o_animate_on_scroll o_anim_fade_in o_anim_from_left col-lg-3"
-                                        style="animation-delay: -1.25774s;"
-                                        data-scroll-zone-start="0"
-                                        data-scroll-zone-end="100"
-                                    >
-                        <div
-                                            class="card text-bg-white h-100"
-                                            style="background-color: rgb(181, 165, 214) !important;"
-                                        >
-                            <img
-                                                src="/theme_website_cetmix/static/img/odoo_column_2_3.jpg"
-                                                alt=""
-                                                class="card-img-top img img-fluid o_we_custom_image o_we_image_cropped"
-                                                data-original-id="615"
-                                                data-original-src="/theme_website_cetmix/static/img/odoo_column_2_3.jpg"
-                                                data-mimetype="image/jpeg"
-                                                data-y="153.78151260504202"
-                                                data-width="1920"
-                                                data-height="1080"
-                                                data-scale-x="1"
-                                                data-scale-y="1"
-                                                data-aspect-ratio="16/9"
-                                                loading="eager"
-                                            />
-                            <div class="card-body">
-                            <h3 class="card-title">
-                                <font class="text-o-color-2">[ Website ]</font>
-                                <br />
-                            </h3>
-                            <p class="card-text">
-                                <span style="font-size: 18px;">Website builder</span>
-                                <br />
-                                <span style="font-size: 18px;">e-Commerce</span>
-                                <br />
-                                <span style="font-size: 18px;">e-Learning</span>
-                                <br />
-                                <span style="font-size: 18px;">Blogs</span>
-                                <br />
-                                <span style="font-size: 18px;">Live chat</span>
-                                <br />
-                                <span style="font-size: 18px;">Forum</span>
-                            </p>
-                            </div>
-                        </div>
-                        </div>
-                        <div
-                                        class="s_col_no_bgcolor pt16 pb16 o_animate o_animate_on_scroll o_anim_fade_in o_anim_from_left col-lg-3"
-                                        style="animation-delay: -1.25774s;"
-                                        data-scroll-zone-start="0"
-                                        data-scroll-zone-end="100"
-                                    >
-                        <div
-                                            class="card text-bg-white h-100"
-                                            style="background-color: rgb(181, 165, 214) !important;"
-                                        >
-                            <img
-                                                src="/theme_website_cetmix/static/img/odoo_column_2_4.jpg"
-                                                alt=""
-                                                class="card-img-top img img-fluid o_we_custom_image o_we_image_cropped"
-                                                data-original-id="616"
-                                                data-original-src="/theme_website_cetmix/static/img/odoo_column_2_4.jpg"
-                                                data-mimetype="image/jpeg"
-                                                data-y="54.096638655462186"
-                                                data-width="1920"
-                                                data-height="1080"
-                                                data-scale-x="1"
-                                                data-scale-y="1"
-                                                data-aspect-ratio="16/9"
-                                                loading="eager"
-                                            />
-                            <div class="card-body">
-                            <h3 class="card-title">
-                                <font class="text-o-color-2">[ HR ]</font>
-                            </h3>
-                            <p class="card-text">
-                                <span
-                                                        style="font-size: 18px;"
-                                                    >&amp;nbsp;Employees</span>
-                                <br />
-                                <span style="font-size: 18px;">Fleet</span>
-                                <br />
-                                <span style="font-size: 18px;">Recruitment</span>
-                                <br />
-                                <span style="font-size: 18px;">Time-off</span>
-                                <br />
-                                <span style="font-size: 18px;">Appraisals</span>
-                                <br />
-                                <span style="font-size: 18px;">Refferals</span>
-                            </p>
-                            </div>
-                        </div>
-                        </div>
-                    </div>
-                    </div>
-                </section>
-                <section
-                            class="s_call_to_action o_colored_level o_cc o_cc1 pt184 pb88"
-                            data-snippet="s_call_to_action"
-                            data-name="Call to Action"
-                            style="position: relative; background-image: none;"
-                            data-bs-original-title=""
-                            title=""
-                            aria-describedby="tooltip451314"
-                            data-oe-shape-data="{&quot;shape&quot;:&quot;web_editor/Airy/03_001&quot;,&quot;colors&quot;:{&quot;c5&quot;:&quot;#D6D6E7&quot;},&quot;flip&quot;:[]}"
-                        >
-                    <div
-                                class="o_we_shape o_web_editor_Airy_03_001"
-                                style="background-image: url(&quot;/web_editor/shape/web_editor/Airy/03_001.svg?c5=%23D6D6E7&quot;);"
-                            />
-                    <div class="container">
-                    <div
-                                    class="row o_grid_mode"
-                                    style=""
+                            <div class="o_colored_level pb80 col-lg-5 pt72">
+                                <img
+                                    src="/theme_website_cetmix/static/img/odoo_text_1_1.svg"
+                                    alt=""
+                                    class="img img-fluid mx-auto o_we_custom_image"
+                                    data-original-id="666"
+                                    data-original-src="/theme_website_cetmix/static/img/odoo_text_1_1.svg"
+                                    data-mimetype="image/svg+xml"
+                                    data-resize-width="undefined"
                                     data-bs-original-title=""
                                     title=""
-                                    aria-describedby="tooltip419368"
-                                    data-row-count="5"
-                                >
-                        <div
-                                        class="o_colored_level o_grid_item g-col-lg-5 g-height-4 col-lg-5"
-                                        style="grid-area: 1 / 1 / 5 / 6; z-index: 1;"
-                                    >
-                        <h2>CONTACT US :</h2>
-                        <p>
-                            <span
-                                                style="font-size: 18px;"
-                                            >for a free personal&amp;nbsp;Odoo demo database​_</span>
-                        </p>
+                                    aria-describedby="tooltip158826"
+                                    loading="lazy"
+                                    style=""
+                                />
+                            </div>
                         </div>
-                        <div
-                                        class="o_colored_level o_grid_item g-col-lg-5 g-height-2 col-lg-5"
-                                        style="z-index: 5; grid-area: 4 / 1 / 6 / 6;"
-                                    >
-                        <p style="text-align: right;">
-                            <a
-                                                class="mb-2 btn btn-custom text-o-color-4 bg-o-color-2 rounded-circle btn-lg"
-                                                href="/contactus"
-                                                data-bs-original-title=""
-                                                title=""
-                                                style="border-width: 1px; border-style: solid; border-color: rgb(71, 73, 115);"
-                                            >Request a demo​​​​​​</a>
-                            <br />
-                        </p>
-                        </div>
-                        <div
-                                        class="o_colored_level o_grid_item g-height-2 g-col-lg-5 col-lg-5"
-                                        style="z-index: 6; grid-area: 4 / 8 / 6 / 13;"
-                                        data-bs-original-title=""
-                                        title=""
-                                        aria-describedby="tooltip597427"
-                                    >
-                        <p
-                                            style="text-align: right;"
-                                            data-bs-original-title=""
-                                            title=""
-                                            aria-describedby="tooltip289472"
-                                        >
-                            <a
-                                                class="mb-2 btn btn-outline-secondary rounded-circle btn-lg"
-                                                href="https://demo.cetmix.com/web/login"
-                                                data-bs-original-title=""
-                                                title=""
-                                                target="_blank"
-                                            >Try now</a>
-                            <br />
-                        </p>
-                        </div>
-                        <div
-                                        class="o_colored_level o_grid_item g-height-3 g-col-lg-5 col-lg-5"
-                                        style="z-index: 2; grid-area: 1 / 8 / 4 / 13;"
-                                    >
-                        <h2>DEMO INSTANCE /&amp;gt;<br /></h2>
-                        <p>
-                            <span
-                                                style="font-size: 18px;"
-                                            >Join us and make your company a better place _</span>
-                        </p>
-                        </div>
-                    </div>
                     </div>
                 </section>
-                </div>
-            </t>
-            </t>
-        </field>
-    </record>
+                <section
+                    class="s_three_columns pt32 o_colored_level o_cc o_cc2 pb0"
+                    data-vcss="001"
+                    data-snippet="s_three_columns"
+                    style="background-color: rgb(86, 89, 133) !important; background-image: none;"
+                    data-name="Custom Columns"
+                >
+                    <div class="container-fluid">
+                        <div class="row d-flex align-items-stretch">
+                            <div
+                                class="s_col_no_bgcolor pt16 pb16 o_animate o_animate_on_scroll o_anim_fade_in o_anim_from_left col-lg-3"
+                                style="animation-delay: -1.168s;"
+                                data-scroll-zone-start="0"
+                                data-scroll-zone-end="100"
+                            >
+                                <div
+                                    class="card text-bg-white h-100"
+                                    style="background-color: rgb(181, 165, 214) !important;"
+                                >
+                                    <img
+                                        src="/unsplash/lFv0V3_2H6s/456/business building.jpg?unique=5131a0c5"
+                                        alt="architectural photography of building with people in it during nighttime"
+                                        class="card-img-top img img-fluid o_we_custom_image"
+                                        data-original-id="455"
+                                        data-original-src="/unsplash/lFv0V3_2H6s/business building.jpg?unique=2d70d77b"
+                                        data-mimetype="image/jpeg"
+                                        data-resize-width="962"
+                                        loading="eager"
+                                        data-bs-original-title=""
+                                        title=""
+                                        aria-describedby="tooltip177012"
+                                    />
+                                    <div class="card-body">
+                                        <h3 class="card-title">
+                                            <font
+                                                class="text-o-color-2"
+                                            >[ Inventory &amp;amp; MRP ]
+                                            </font>
+                                        </h3>
+                                        <p class="card-text">
+                                            <span style="font-size: 18px;">Inventory
+                                            </span>
+                                            <br />
+                                            <span style="font-size: 18px;">Manufacturing
+                                            </span>
+                                            <br />
+                                            <span style="font-size: 18px;">PLM
+                                            </span>
+                                            <br />
+                                            <span style="font-size: 18px;">Purchase
+                                            </span>
+                                            <br />
+                                            <span style="font-size: 18px;">Maintenance
+                                            </span>
+                                            <br />
+                                            <span
+                                                style="font-size: 18px;"
+                                            >Quality</span>​
+                                            <br />
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div
+                                class="s_col_no_bgcolor pt16 pb16 o_animate o_animate_on_scroll o_anim_fade_in o_anim_from_left col-lg-3"
+                                style="animation-delay: -1.168s;"
+                                data-scroll-zone-start="0"
+                                data-scroll-zone-end="100"
+                            >
+                                <div
+                                    class="card text-bg-white h-100"
+                                    style="background-color: rgb(181, 165, 214) !important;"
+                                >
+                                    <img
+                                        src="/theme_website_cetmix/static/img/odoo_column_1_2.jpg"
+                                        alt=""
+                                        class="card-img-top img img-fluid o_we_custom_image o_we_image_cropped"
+                                        data-original-id="610"
+                                        data-original-src="/theme_website_cetmix/static/img/odoo_column_1_2.jpg"
+                                        data-mimetype="image/jpeg"
+                                        data-x="1.5286576785277055e-13"
+                                        data-y="253.3266932270915"
+                                        data-width="1920"
+                                        data-height="1080.0000000000002"
+                                        data-scale-x="1"
+                                        data-scale-y="1"
+                                        data-aspect-ratio="16/9"
+                                        loading="eager"
+                                    />
+                                    <div class="card-body">
+                                        <h3 class="card-title">
+                                            <font
+                                                class="text-o-color-2"
+                                            >[ Finance ]</font>
+                                            <br />
+                                        </h3>
+                                        <p class="card-text">
+                                            <span style="font-size: 18px;">Accounting
+                                            </span>
+                                            <br />
+                                            <span style="font-size: 18px;">Invoicing
+                                            </span>
+                                            <br />
+                                            <span style="font-size: 18px;">Expenses
+                                            </span>
+                                            <br />
+                                            <span
+                                                style="font-size: 18px;"
+                                            >Spreadsheet (BI)
+                                            </span>
+                                            <br />
+                                            <span style="font-size: 18px;">Documents
+                                            </span>
+                                            <br />
+                                            <span style="font-size: 18px;">Sign</span>​
+                                            <br />
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div
+                                class="s_col_no_bgcolor pt16 pb16 o_animate o_animate_on_scroll o_anim_fade_in o_anim_from_left col-lg-3"
+                                style="animation-delay: -1.168s;"
+                                data-scroll-zone-start="0"
+                                data-scroll-zone-end="100"
+                            >
+                                <div
+                                    class="card text-bg-white h-100"
+                                    style="background-color: rgb(181, 165, 214) !important;"
+                                >
+                                    <img
+                                        src="/theme_website_cetmix/static/img/odoo_column_1_3.jpg"
+                                        alt=""
+                                        class="card-img-top img img-fluid o_we_custom_image o_we_image_cropped"
+                                        data-original-id="825"
+                                        data-original-src="/theme_website_cetmix/static/img/odoo_column_1_3.jpg"
+                                        data-mimetype="image/jpeg"
+                                        data-bs-original-title=""
+                                        title=""
+                                        aria-describedby="tooltip368197"
+                                        style=""
+                                        data-y="71.30058913934425"
+                                        data-width="1920"
+                                        data-height="1080"
+                                        data-scale-x="1"
+                                        data-scale-y="1"
+                                        data-aspect-ratio="16/9"
+                                        loading="eager"
+                                    />
+                                    <div class="card-body">
+                                        <h3 class="card-title">
+                                            <font
+                                                class="text-o-color-2"
+                                            >[ Services ]</font>
+                                            <br />
+                                        </h3>
+                                        <p class="card-text">
+                                            <span
+                                                style="font-size: 18px;"
+                                            >Project Management
+                                            </span>
+                                            <br />
+                                            <span style="font-size: 18px;">Planning
+                                            </span>
+                                            <br />
+                                            <span style="font-size: 18px;">Timesheet
+                                            </span>
+                                            <br />
+                                            <span style="font-size: 18px;">Field Service
+                                            </span>
+                                            <br />
+                                            <span style="font-size: 18px;">Helpdesk
+                                            </span>
+                                            <br />
+                                            <span
+                                                style="font-size: 18px;"
+                                            >Appointments</span>​
+                                            <br />
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div
+                                class="s_col_no_bgcolor pt16 pb16 o_animate o_animate_on_scroll o_anim_fade_in o_anim_from_left col-lg-3"
+                                style="animation-delay: -1.168s;"
+                                data-scroll-zone-start="0"
+                                data-scroll-zone-end="100"
+                            >
+                                <div
+                                    class="card text-bg-white h-100"
+                                    style="background-color: rgb(181, 165, 214) !important;"
+                                >
+                                    <img
+                                        src="/theme_website_cetmix/static/img/odoo_column_1_4.jpg"
+                                        alt=""
+                                        class="card-img-top img img-fluid o_we_custom_image o_we_image_cropped"
+                                        data-original-id="611"
+                                        data-original-src="/theme_website_cetmix/static/img/odoo_column_1_4.jpg"
+                                        data-mimetype="image/jpeg"
+                                        data-y="100"
+                                        data-width="1920"
+                                        data-height="1080"
+                                        data-scale-x="1"
+                                        data-scale-y="1"
+                                        data-aspect-ratio="16/9"
+                                        loading="eager"
+                                    />
+                                    <div class="card-body">
+                                        <h3 class="card-title">
+                                            <font
+                                                class="text-o-color-2"
+                                            >[ Productivity ]</font>
+                                        </h3>
+                                        <p class="card-text">
+                                            <span style="font-size: 18px;">Discussions
+                                            </span>
+                                            <br />
+                                            <span style="font-size: 18px;">Approvals
+                                            </span>
+                                            <br />
+                                            <span style="font-size: 18px;">IoT
+                                            </span>
+                                            <br />
+                                            <span style="font-size: 18px;">VolP</span>​
+                                            <br />
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <section
+                    class="s_three_columns pb32 o_colored_level o_cc o_cc2 pt0"
+                    data-vcss="001"
+                    data-snippet="s_three_columns"
+                    style="background-color: rgb(86, 89, 133) !important; background-image: none;"
+                    data-name="Custom Columns"
+                >
+                    <div class="container-fluid">
+                        <div class="row d-flex align-items-stretch">
+                            <div
+                                class="s_col_no_bgcolor pt16 pb16 o_animate o_animate_on_scroll o_anim_fade_in o_anim_from_left col-lg-3"
+                                style="animation-delay: -1.25774s;"
+                                data-scroll-zone-start="0"
+                                data-scroll-zone-end="100"
+                            >
+                                <div
+                                    class="card text-bg-white h-100"
+                                    style="background-color: rgb(181, 165, 214) !important;"
+                                >
+                                    <img
+                                        src="/theme_website_cetmix/static/img/odoo_column_2_1.jpg"
+                                        alt=""
+                                        class="card-img-top img img-fluid o_we_custom_image o_we_image_cropped"
+                                        data-original-id="612"
+                                        data-original-src="/theme_website_cetmix/static/img/odoo_column_2_1.jpg"
+                                        data-mimetype="image/jpeg"
+                                        data-y="19.764705882352924"
+                                        data-width="1919.9999999999998"
+                                        data-height="1080"
+                                        data-scale-x="1"
+                                        data-scale-y="1"
+                                        data-aspect-ratio="16/9"
+                                        loading="eager"
+                                    />
+                                    <div class="card-body">
+                                        <h3 class="card-title">
+                                            <font
+                                                class="text-o-color-2"
+                                            >[ Sales ]</font>
+                                        </h3>
+                                        <p class="card-text">
+                                            <span style="font-size: 18px;">CRM</span>
+                                            <br />
+                                            <span style="font-size: 18px;">Sales</span>
+                                            <br />
+                                            <span
+                                                style="font-size: 18px;"
+                                            >Point of Sale</span>
+                                            <br />
+                                            <span
+                                                style="font-size: 18px;"
+                                            >Subscription</span>
+                                            <br />
+                                            <span style="font-size: 18px;">Rental</span>
+                                            <br />
+                                            <span
+                                                style="font-size: 18px;"
+                                            >Amazon connector</span>
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div
+                                class="s_col_no_bgcolor pt16 pb16 o_animate o_animate_on_scroll o_anim_fade_in o_anim_from_left col-lg-3"
+                                style="animation-delay: -1.25774s;"
+                                data-scroll-zone-start="0"
+                                data-scroll-zone-end="100"
+                            >
+                                <div
+                                    class="card text-bg-white h-100"
+                                    style="background-color: rgb(181, 165, 214) !important;"
+                                >
+                                    <img
+                                        src="/theme_website_cetmix/static/img/odoo_column_2_2.jpg"
+                                        alt=""
+                                        class="card-img-top img img-fluid o_we_custom_image o_we_image_cropped"
+                                        data-original-id="613"
+                                        data-original-src="/theme_website_cetmix/static/img/odoo_column_2_2.jpg"
+                                        data-mimetype="image/jpeg"
+                                        data-y="159.1596638655462"
+                                        data-width="1920"
+                                        data-height="1080"
+                                        data-scale-x="1"
+                                        data-scale-y="1"
+                                        data-aspect-ratio="16/9"
+                                        loading="eager"
+                                    />
+                                    <div class="card-body">
+                                        <h3 class="card-title">
+                                            <font
+                                                class="text-o-color-2"
+                                            >[ Marketing ]</font>
+                                            <br />
+                                        </h3>
+                                        <p class="card-text">
+                                            <span
+                                                style="font-size: 18px; background-color: transparent;"
+                                            >Marketing automation<br />Surveys<br
+                                                />Events<br />Social Marketing<br
+                                                />E-mail Marketing<br />SMS Marketing
+                                            </span>
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div
+                                class="s_col_no_bgcolor pt16 pb16 o_animate o_animate_on_scroll o_anim_fade_in o_anim_from_left col-lg-3"
+                                style="animation-delay: -1.25774s;"
+                                data-scroll-zone-start="0"
+                                data-scroll-zone-end="100"
+                            >
+                                <div
+                                    class="card text-bg-white h-100"
+                                    style="background-color: rgb(181, 165, 214) !important;"
+                                >
+                                    <img
+                                        src="/theme_website_cetmix/static/img/odoo_column_2_3.jpg"
+                                        alt=""
+                                        class="card-img-top img img-fluid o_we_custom_image o_we_image_cropped"
+                                        data-original-id="615"
+                                        data-original-src="/theme_website_cetmix/static/img/odoo_column_2_3.jpg"
+                                        data-mimetype="image/jpeg"
+                                        data-y="153.78151260504202"
+                                        data-width="1920"
+                                        data-height="1080"
+                                        data-scale-x="1"
+                                        data-scale-y="1"
+                                        data-aspect-ratio="16/9"
+                                        loading="eager"
+                                    />
+                                    <div class="card-body">
+                                        <h3 class="card-title">
+                                            <font
+                                                class="text-o-color-2"
+                                            >[ Website ]</font>
+                                            <br />
+                                        </h3>
+                                        <p class="card-text">
+                                            <span
+                                                style="font-size: 18px;"
+                                            >Website builder</span>
+                                            <br />
+                                            <span
+                                                style="font-size: 18px;"
+                                            >e-Commerce</span>
+                                            <br />
+                                            <span
+                                                style="font-size: 18px;"
+                                            >e-Learning</span>
+                                            <br />
+                                            <span style="font-size: 18px;">Blogs</span>
+                                            <br />
+                                            <span
+                                                style="font-size: 18px;"
+                                            >Live chat</span>
+                                            <br />
+                                            <span style="font-size: 18px;">Forum</span>
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div
+                                class="s_col_no_bgcolor pt16 pb16 o_animate o_animate_on_scroll o_anim_fade_in o_anim_from_left col-lg-3"
+                                style="animation-delay: -1.25774s;"
+                                data-scroll-zone-start="0"
+                                data-scroll-zone-end="100"
+                            >
+                                <div
+                                    class="card text-bg-white h-100"
+                                    style="background-color: rgb(181, 165, 214) !important;"
+                                >
+                                    <img
+                                        src="/theme_website_cetmix/static/img/odoo_column_2_4.jpg"
+                                        alt=""
+                                        class="card-img-top img img-fluid o_we_custom_image o_we_image_cropped"
+                                        data-original-id="616"
+                                        data-original-src="/theme_website_cetmix/static/img/odoo_column_2_4.jpg"
+                                        data-mimetype="image/jpeg"
+                                        data-y="54.096638655462186"
+                                        data-width="1920"
+                                        data-height="1080"
+                                        data-scale-x="1"
+                                        data-scale-y="1"
+                                        data-aspect-ratio="16/9"
+                                        loading="eager"
+                                    />
+                                    <div class="card-body">
+                                        <h3 class="card-title">
+                                            <font class="text-o-color-2">[ HR ]</font>
+                                        </h3>
+                                        <p class="card-text">
+                                            <span
+                                                style="font-size: 18px;"
+                                            >&amp;nbsp;Employees
+                                            </span>
+                                            <br />
+                                            <span style="font-size: 18px;">Fleet</span>
+                                            <br />
+                                            <span
+                                                style="font-size: 18px;"
+                                            >Recruitment</span>
+                                            <br />
+                                            <span
+                                                style="font-size: 18px;"
+                                            >Time-off</span>
+                                            <br />
+                                            <span
+                                                style="font-size: 18px;"
+                                            >Appraisals</span>
+                                            <br />
+                                            <span
+                                                style="font-size: 18px;"
+                                            >Refferals</span>
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <section
+                    class="s_call_to_action o_colored_level o_cc o_cc1 pt184 pb88"
+                    data-snippet="s_call_to_action"
+                    data-name="Call to Action"
+                    style="position: relative; background-image: none;"
+                    data-bs-original-title=""
+                    title=""
+                    aria-describedby="tooltip451314"
+                    data-oe-shape-data="{&quot;shape&quot;:&quot;web_editor/Airy/03_001&quot;,&quot;colors&quot;:{&quot;c5&quot;:&quot;#D6D6E7&quot;},&quot;flip&quot;:[]}"
+                >
+                    <div
+                        class="o_we_shape o_web_editor_Airy_03_001"
+                        style="background-image: url(&quot;/web_editor/shape/web_editor/Airy/03_001.svg?c5=%23D6D6E7&quot;);"
+                    />
+                    <div class="container">
+                        <div
+                            class="row o_grid_mode"
+                            style=""
+                            data-bs-original-title=""
+                            title=""
+                            aria-describedby="tooltip419368"
+                            data-row-count="5"
+                        >
+                            <div
+                                class="o_colored_level o_grid_item g-col-lg-5 g-height-4 col-lg-5"
+                                style="grid-area: 1 / 1 / 5 / 6; z-index: 1;"
+                            >
+                                <h2>CONTACT US :</h2>
+                                <p>
+                                    <span
+                                        style="font-size: 18px;"
+                                    >for a free personal&amp;nbsp;Odoo demo database​_
+                                    </span>
+                                </p>
+                            </div>
+                            <div
+                                class="o_colored_level o_grid_item g-col-lg-5 g-height-2 col-lg-5"
+                                style="z-index: 5; grid-area: 4 / 1 / 6 / 6;"
+                            >
+                                <p style="text-align: right;">
+                                    <a
+                                        class="mb-2 btn btn-custom text-o-color-4 bg-o-color-2 rounded-circle btn-lg"
+                                        href="/contactus"
+                                        data-bs-original-title=""
+                                        title=""
+                                        style="border-width: 1px; border-style: solid; border-color: rgb(71, 73, 115);"
+                                    >Request a demo​​​​​​
+                                    </a>
+                                    <br />
+                                </p>
+                            </div>
+                            <div
+                                class="o_colored_level o_grid_item g-height-2 g-col-lg-5 col-lg-5"
+                                style="z-index: 6; grid-area: 4 / 8 / 6 / 13;"
+                                data-bs-original-title=""
+                                title=""
+                                aria-describedby="tooltip597427"
+                            >
+                                <p
+                                    style="text-align: right;"
+                                    data-bs-original-title=""
+                                    title=""
+                                    aria-describedby="tooltip289472"
+                                >
+                                    <a
+                                        class="mb-2 btn btn-outline-secondary rounded-circle btn-lg"
+                                        href="https://demo.cetmix.com/web/login"
+                                        data-bs-original-title=""
+                                        title=""
+                                        target="_blank"
+                                    >Try now
+                                    </a>
+                                    <br />
+                                </p>
+                            </div>
+                            <div
+                                class="o_colored_level o_grid_item g-height-3 g-col-lg-5 col-lg-5"
+                                style="z-index: 2; grid-area: 1 / 8 / 4 / 13;"
+                            >
+                                <h2>DEMO INSTANCE /&amp;gt;
+                                    <br />
+                                </h2>
+                                <p>
+                                    <span
+                                        style="font-size: 18px;"
+                                    >Join us and make your company a better place _
+                                    </span>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+            </div>
+        </t>
+    </template>
 </odoo>

@@ -372,7 +372,7 @@
                                 aria-describedby="tooltip195038"
                             ><a
                                     class="mb-2 btn btn-outline-custom rounded-circle btn-lg"
-                                    href="/solutions"
+                                    href="/our_solutions"
                                     data-bs-original-title=""
                                     title=""
                                     style="border-color: rgb(71, 73, 115); border-width: 1px; border-style: solid;"
@@ -395,7 +395,7 @@
                     class="s_parallax_bg oe_img_bg o_bg_img_center"
                     style="background-image: url(/theme_website_cetmix/static/img/home_cover_2_1.jpg);"
                     data-original-id="667"
-                    data-original-src="/unsplash/u13zBF4r56A/industry.jpg?unique=97b36208"
+                    data-original-src="/theme_website_cetmix/static/img/home_cover_2_1.jpg"
                     data-mimetype="image/jpeg"
                     data-resize-width="1920"
                 />
@@ -432,7 +432,7 @@
                             aria-describedby="tooltip453526"
                         >
                     <a
-                                href="/why-cetmix"
+                                href="/why_cetmix"
                                 class="mb-2 o_anim_fade_in o_animate o_visible btn btn-fill-custom text-o-color-4 rounded-circle btn-lg"
                                 data-bs-original-title=""
                                 title=""

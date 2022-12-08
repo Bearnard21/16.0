@@ -1,689 +1,742 @@
 <odoo>
-    <record id="our_solutions" model="ir.ui.view">
-        <field name="name">Why Cetmix?</field>
-        <field name="type">qweb</field>
-        <field name="key">theme_website_cetmix.our_solutions</field>
-        <field name="arch" type="xml">
-            <t
-                name="Our Solutions"
-                priority="29"
-                t-name="theme_website_cetmix.our_solutions"
-            >
-                <t t-call="website.layout">
-                    <div id="wrap" class="oe_structure oe_empty">
-                    <section
-                            class="s_cover parallax s_parallax_is_fixed bg-black-50 o_colored_level pb256 pt232"
-                            data-scroll-background-ratio="1"
-                            data-snippet="s_cover"
-                            style="background-image: none; position: relative;"
-                            data-bs-original-title=""
-                            title=""
-                            aria-describedby="tooltip993469"
-                            data-name="Custom Cover (2)"
-                            data-oe-shape-data="{&quot;shape&quot;:&quot;web_editor/Origins/11_001&quot;,&quot;colors&quot;:{&quot;c3&quot;:&quot;#FFFFFF&quot;,&quot;c4&quot;:&quot;#FFFFFF&quot;},&quot;flip&quot;:[]}"
-                        >
-                        <span
-                                class="s_parallax_bg oe_img_bg o_bg_img_center"
-                                style="background-image: url(/theme_website_cetmix/static/img/solutions_cover_1_1.jpg); background-position: 50% 0px;"
-                                data-original-id="800"
-                                data-original-src="/theme_website_cetmix/static/img/solutions_cover_1_1.jpg"
-                                data-mimetype="image/jpeg"
-                                data-resize-width="1920"
-                            />
-                        <div class="o_we_bg_filter bg-black-50" />
-                        <div
-                                class="o_we_shape o_web_editor_Origins_11_001"
-                                style="background-image: url(&quot;/web_editor/shape/web_editor/Origins/11_001.svg?c3=%23FFFFFF&amp;c4=%23FFFFFF&quot;);"
-                            />
-                        <div class="s_allow_columns container">
+    <template name="Our Solutions" id="our_solutions">
+        <t t-call="website.layout">
+            <div id="wrap" class="oe_structure oe_empty">
+                <section
+                    class="s_cover parallax s_parallax_is_fixed bg-black-50 o_colored_level pb256 pt232"
+                    data-scroll-background-ratio="1"
+                    data-snippet="s_cover"
+                    style="background-image: none; position: relative;"
+                    data-bs-original-title=""
+                    title=""
+                    aria-describedby="tooltip993469"
+                    data-name="Custom Cover (2)"
+                    data-oe-shape-data="{&quot;shape&quot;:&quot;web_editor/Origins/11_001&quot;,&quot;colors&quot;:{&quot;c3&quot;:&quot;#FFFFFF&quot;,&quot;c4&quot;:&quot;#FFFFFF&quot;},&quot;flip&quot;:[]}"
+                >
+                    <span
+                        class="s_parallax_bg oe_img_bg o_bg_img_center"
+                        style="background-image: url(/theme_website_cetmix/static/img/solutions_cover_1_1.jpg); background-position: 50% 0px;"
+                        data-original-id="800"
+                        data-original-src="/theme_website_cetmix/static/img/solutions_cover_1_1.jpg"
+                        data-mimetype="image/jpeg"
+                        data-resize-width="1920"
+                    />
+                    <div class="o_we_bg_filter bg-black-50" />
+                    <div
+                        class="o_we_shape o_web_editor_Origins_11_001"
+                        style="background-image: url(&quot;/web_editor/shape/web_editor/Origins/11_001.svg?c3=%23FFFFFF&amp;c4=%23FFFFFF&quot;);"
+                    />
+                    <div class="s_allow_columns container">
                         <div class="row o_grid_mode" style="" data-row-count="5">
                             <div
-                                        class="o_grid_item g-col-lg-12 g-height-5 col-lg-12 o_colored_level o_anim_fade_in o_animate o_visible"
-                                        style="grid-row-start: 1; grid-column-start: 1; grid-row-end: 6; grid-column-end: 13; z-index: 1;"
-                                        data-bs-original-title=""
-                                        title=""
-                                        aria-describedby="tooltip340120"
-                                    >
-                            <h1
-                                            style="text-align: left;"
-                                        >SOLUTIONS RIGHT FOR YOUR BUSINESS &amp;gt;</h1>
-                            <h4
-                                        >Choose an existing one or&amp;nbsp;we can&amp;nbsp;develop a custom one for&amp;nbsp;you _&amp;nbsp;</h4>
+                                class="o_grid_item g-col-lg-12 g-height-5 col-lg-12 o_colored_level o_anim_fade_in o_animate o_visible"
+                                style="grid-row-start: 1; grid-column-start: 1; grid-row-end: 6; grid-column-end: 13; z-index: 1;"
+                                data-bs-original-title=""
+                                title=""
+                                aria-describedby="tooltip340120"
+                            >
+                                <h1
+                                    style="text-align: left;"
+                                >SOLUTIONS RIGHT FOR YOUR BUSINESS &amp;gt;
+                                </h1>
+                                <h4
+                                >Choose an existing one or&amp;nbsp;we can&amp;nbsp;develop a custom one for&amp;nbsp;you
+                                    _&amp;nbsp;
+                                </h4>
                             </div>
                         </div>
-                        </div>
-                    </section>
-                    <section
-                            class="s_text_image o_colored_level pb56 pt24"
-                            data-snippet="s_image_text"
-                            data-name="Image - Text"
-                            style="background-image: none;"
+                    </div>
+                </section>
+                <section
+                    class="s_text_image o_colored_level pb56 pt24"
+                    data-snippet="s_image_text"
+                    data-name="Image - Text"
+                    style="background-image: none;"
+                    data-bs-original-title=""
+                    title=""
+                    aria-describedby="tooltip738880"
+                >
+                    <div>
+                        <div
+                            class="row o_grid_mode"
                             data-bs-original-title=""
                             title=""
-                            aria-describedby="tooltip738880"
+                            aria-describedby="tooltip557581"
+                            style=""
+                            data-row-count="8"
                         >
-                        <div>
-                        <div
-                                    class="row o_grid_mode"
+                            <div
+                                class="o_colored_level o_grid_item o_grid_item_image g-height-7 g-col-lg-3 col-lg-3 o_anim_fade_in o_animate o_visible"
+                                style="grid-row-start: 1; grid-column-start: 1; grid-row-end: 8; grid-column-end: 4; z-index: 1;"
+                            >
+                                <img
+                                    src="/theme_website_cetmix/static/img/solutions_text_1_1.svg"
+                                    alt=""
+                                    class="img img-fluid mx-auto o_we_custom_image"
+                                    data-original-id="891"
+                                    data-original-src="/theme_website_cetmix/static/img/solutions_text_1_1.svg"
+                                    data-mimetype="image/svg+xml"
+                                    data-resize-width="undefined"
+                                    loading="eager"
+                                />
+                            </div>
+                            <div
+                                class="o_colored_level o_grid_item g-col-lg-8 g-height-3 col-lg-8"
+                                style="grid-area: 2 / 5 / 5 / 13; z-index: 2;"
+                                data-bs-original-title=""
+                                title=""
+                                aria-describedby="tooltip760650"
+                            >
+                                <h2>
+                                </h2>
+                                <h2 style="">[ Estonian Accounting and Reporting ]</h2>
+                                <p style="">
+                                    <span
+                                        style="font-size: 18px;"
+                                    >Are you from Estonia? Using Odoo already?<br
+                                        />Now you can use Estonian Chart of Accounts localisation and Reporting_<br
+                                        />Download open source&amp;nbsp;Odoo Community version for free or contact us&amp;nbsp;
+                                        for Odoo Enterprise version_
+                                        <br />
+                                        <br />
+                                    </span>
+                                </p>
+                                <p style="">
+                                    <br />
+                                </p>
+                                <p style=""><a />&amp;nbsp;
+                                    <br />
+                                </p>
+                            </div>
+                            <div
+                                class="o_grid_item g-col-lg-2 o_colored_level g-height-4 col-lg-2"
+                                style="z-index: 4; grid-area: 5 / 7 / 9 / 9;"
+                                data-bs-original-title=""
+                                title=""
+                                aria-describedby="tooltip440766"
+                            >
+                                <h5>
+                                    <span
+                                        style="font-size: 18px;"
+                                    >&amp;nbsp;Balance Sheet
+                                    </span>
+                                </h5>
+                                <h5>
+                                    <span style="font-size: 18px;">AT Return (KMD-2017)
+                                    </span>
+                                </h5>
+                                <h5
                                     data-bs-original-title=""
                                     title=""
-                                    aria-describedby="tooltip557581"
-                                    style=""
-                                    data-row-count="8"
+                                    aria-describedby="tooltip199845"
                                 >
-                            <div
-                                        class="o_colored_level o_grid_item o_grid_item_image g-height-7 g-col-lg-3 col-lg-3 o_anim_fade_in o_animate o_visible"
-                                        style="grid-row-start: 1; grid-column-start: 1; grid-row-end: 8; grid-column-end: 4; z-index: 1;"
-                                    >
-                            <img
-                                            src="/theme_website_cetmix/static/img/solutions_text_1_1.svg"
-                                            alt=""
-                                            class="img img-fluid mx-auto o_we_custom_image"
-                                            data-original-id="891"
-                                            data-original-src="/theme_website_cetmix/static/img/solutions_text_1_1.svg"
-                                            data-mimetype="image/svg+xml"
-                                            data-resize-width="undefined"
-                                            loading="eager"
-                                        />
-                            </div>
-                            <div
-                                        class="o_colored_level o_grid_item g-col-lg-8 g-height-3 col-lg-8"
-                                        style="grid-area: 2 / 5 / 5 / 13; z-index: 2;"
+                                    <span style="font-size: 18px;">VIES Declaration (VD)
+                                    </span>
+                                </h5>
+                                <h5
+                                    data-bs-original-title=""
+                                    title=""
+                                    aria-describedby="tooltip199845"
+                                >
+                                    <br />
+                                    <a
+                                        href="https://apps.odoo.com/apps/modules/15.0/l10n_ee_reporting/"
+                                        class="mb-2 btn btn-fill-primary rounded-circle"
                                         data-bs-original-title=""
                                         title=""
-                                        aria-describedby="tooltip760650"
+                                        target="_blank"
                                     >
-                            <h2>
-                                </h2>
-                            <h2 style="">[ Estonian Accounting and Reporting ]</h2>
-                            <p style="">
-                                <span
-                                                style="font-size: 18px;"
-                                            >Are you from Estonia? Using Odoo already?<br
-                                                />Now you can use Estonian Chart of Accounts localisation and Reporting_<br
-                                                />Download open source&amp;nbsp;Odoo Community version for free or contact us&amp;nbsp; for Odoo Enterprise version_<br
-                                                /><br /></span>
-                            </p>
-                            <p style="">
-                                <br />
-                            </p>
-                            <p style=""><a />&amp;nbsp;<br /></p>
+                                        <span
+                                            style="font-size: 18px;"
+                                            data-bs-original-title=""
+                                            title=""
+                                            aria-describedby="tooltip263543"
+                                        >Download Reporting
+                                        </span>
+                                    </a>
+                                    <span style="font-size: 18px;">&amp;nbsp;</span>
+                                    <br />
+                                </h5>
                             </div>
                             <div
-                                        class="o_grid_item g-col-lg-2 o_colored_level g-height-4 col-lg-2"
-                                        style="z-index: 4; grid-area: 5 / 7 / 9 / 9;"
+                                class="o_grid_item g-col-lg-2 o_colored_level g-height-4 col-lg-2"
+                                style="z-index: 5; grid-area: 5 / 5 / 9 / 7;"
+                                data-bs-original-title=""
+                                title=""
+                                aria-describedby="tooltip440766"
+                            >
+                                <h5>
+                                    <span
+                                        style="font-size: 18px;"
+                                    >Chart of Accounts template
+                                    </span>
+                                    <br />
+                                </h5>
+                                <h5>
+                                    <span style="font-size: 18px;">Taxes</span>
+                                </h5>
+                                <h5
+                                    data-bs-original-title=""
+                                    title=""
+                                    aria-describedby="tooltip199845"
+                                >
+                                    <br />
+                                </h5>
+                                <h5
+                                    data-bs-original-title=""
+                                    title=""
+                                    aria-describedby="tooltip199845"
+                                >
+                                    <br />
+                                    <a
+                                        href="https://apps.odoo.com/apps/modules/15.0/l10n_ee_accounting/"
+                                        class="mb-2 btn btn-fill-primary rounded-circle"
                                         data-bs-original-title=""
                                         title=""
-                                        aria-describedby="tooltip440766"
+                                        target="_blank"
                                     >
-                            <h5>
-                                <span
-                                                style="font-size: 18px;"
-                                            >&amp;nbsp;Balance Sheet</span>
-                            </h5>
-                            <h5>
-                                <span
-                                                style="font-size: 18px;"
-                                            >AT Return (KMD-2017)</span>
-                            </h5>
-                            <h5
+                                        <span
+                                            style="font-size: 18px;"
                                             data-bs-original-title=""
                                             title=""
-                                            aria-describedby="tooltip199845"
-                                        >
-                                <span
-                                                style="font-size: 18px;"
-                                            >VIES Declaration (VD)</span>
-                            </h5>
-                            <h5
-                                            data-bs-original-title=""
-                                            title=""
-                                            aria-describedby="tooltip199845"
-                                        >
-                                <br />
-                                <a
-                                                href="https://apps.odoo.com/apps/modules/15.0/l10n_ee_reporting/"
-                                                class="mb-2 btn btn-fill-primary rounded-circle"
-                                                data-bs-original-title=""
-                                                title=""
-                                                target="_blank"
-                                            >
-                                <span
-                                                    style="font-size: 18px;"
-                                                    data-bs-original-title=""
-                                                    title=""
-                                                    aria-describedby="tooltip263543"
-                                                >Download Reporting</span>
-                                </a>
-                                <span style="font-size: 18px;">&amp;nbsp;</span>
-                                <br />
-                            </h5>
-                            </div>
-                            <div
-                                        class="o_grid_item g-col-lg-2 o_colored_level g-height-4 col-lg-2"
-                                        style="z-index: 5; grid-area: 5 / 5 / 9 / 7;"
-                                        data-bs-original-title=""
-                                        title=""
-                                        aria-describedby="tooltip440766"
-                                    >
-                            <h5>
-                                <span
-                                                style="font-size: 18px;"
-                                            >Chart of Accounts template</span>
-                                <br />
-                            </h5>
-                            <h5>
-                                <span style="font-size: 18px;">Taxes</span>
-                            </h5>
-                            <h5
-                                            data-bs-original-title=""
-                                            title=""
-                                            aria-describedby="tooltip199845"
-                                        >
-                                <br />
-                            </h5>
-                            <h5
-                                            data-bs-original-title=""
-                                            title=""
-                                            aria-describedby="tooltip199845"
-                                        ><br /><a
-                                                href="https://apps.odoo.com/apps/modules/15.0/l10n_ee_accounting/"
-                                                class="mb-2 btn btn-fill-primary rounded-circle"
-                                                data-bs-original-title=""
-                                                title=""
-                                                target="_blank"
-                                            ><span
-                                                    style="font-size: 18px;"
-                                                    data-bs-original-title=""
-                                                    title=""
-                                                    aria-describedby="tooltip382461"
-                                                >Download Accounting</span></a>&amp;nbsp;<br
-                                            /></h5>
+                                            aria-describedby="tooltip382461"
+                                        >Download Accounting
+                                        </span>
+                                    </a>&amp;nbsp;
+                                    <br />
+                                </h5>
                             </div>
                         </div>
-                        </div>
-                    </section>
-                    <section
-                            class="s_text_block o_colored_level pt88 pb0 o_cc o_cc3"
-                            data-snippet="s_text_block"
-                            style="position: relative; background-color: rgb(86, 89, 133) !important; background-image: none;"
-                            data-oe-shape-data="{&quot;shape&quot;:&quot;web_editor/Airy/03_001&quot;,&quot;colors&quot;:{&quot;c5&quot;:&quot;#D6D6E7&quot;},&quot;flip&quot;:[]}"
-                            data-name="Custom Custom Text"
-                        >
-                        <div
-                                class="o_we_shape o_web_editor_Airy_03_001"
-                                style="background-image: url(&quot;/web_editor/shape/web_editor/Airy/03_001.svg?c5=%23D6D6E7&quot;);"
-                            />
-                        <div class="s_allow_columns container">
+                    </div>
+                </section>
+                <section
+                    class="s_text_block o_colored_level pt88 pb0 o_cc o_cc3"
+                    data-snippet="s_text_block"
+                    style="position: relative; background-color: rgb(86, 89, 133) !important; background-image: none;"
+                    data-oe-shape-data="{&quot;shape&quot;:&quot;web_editor/Airy/03_001&quot;,&quot;colors&quot;:{&quot;c5&quot;:&quot;#D6D6E7&quot;},&quot;flip&quot;:[]}"
+                    data-name="Custom Custom Text"
+                >
+                    <div
+                        class="o_we_shape o_web_editor_Airy_03_001"
+                        style="background-image: url(&quot;/web_editor/shape/web_editor/Airy/03_001.svg?c5=%23D6D6E7&quot;);"
+                    />
+                    <div class="s_allow_columns container">
                         <div class="row o_grid_mode" style="" data-row-count="3">
                             <div
-                                        class="o_grid_item g-col-lg-12 g-height-3 col-lg-12 o_colored_level"
-                                        style="grid-area: 1 / 1 / 4 / 13; z-index: 1;"
-                                    >
-                            <h1>MESSAGING ODOO APPS _<br /></h1>
+                                class="o_grid_item g-col-lg-12 g-height-3 col-lg-12 o_colored_level"
+                                style="grid-area: 1 / 1 / 4 / 13; z-index: 1;"
+                            >
+                                <h1>MESSAGING ODOO APPS _
+                                    <br />
+                                </h1>
                             </div>
                         </div>
-                        </div>
-                    </section>
-                    <section
-                            class="s_features o_colored_level pb88 pt72 o_we_force_no_transition"
-                            data-snippet="s_features"
-                            data-name="Features"
-                            style="position: relative; background-color: rgb(86, 89, 133) !important; background-image: none;"
-                        >
-                        <div class="container">
+                    </div>
+                </section>
+                <section
+                    class="s_features o_colored_level pb88 pt72 o_we_force_no_transition"
+                    data-snippet="s_features"
+                    data-name="Features"
+                    style="position: relative; background-color: rgb(86, 89, 133) !important; background-image: none;"
+                >
+                    <div class="container">
                         <div
-                                    class="row o_we_force_no_transition"
-                                    data-bs-original-title=""
-                                    title=""
-                                    aria-describedby="tooltip858845"
-                                >
-                            <div
-                                        class="text-center o_colored_level col-lg-3 pt0 pb0 o_animate o_animate_on_scroll bg-black-15 o_anim_slide_in o_anim_from_left"
-                                        style="animation-delay: -0.02663s;"
-                                        data-scroll-zone-start="0"
-                                        data-scroll-zone-end="100"
-                                    >
-                            <img
-                                            src="/theme_website_cetmix/static/img/solutions_features_1_1.svg"
-                                            alt=""
-                                            class="m-3 img img-fluid o_we_custom_image"
-                                            style="width: 50% !important;"
-                                            data-original-id="870"
-                                            data-original-src="/theme_website_cetmix/static/img/solutions_features_1_1.svg"
-                                            data-mimetype="image/svg+xml"
-                                            data-resize-width="undefined"
-                                            loading="eager"
-                                        />
-                            <h4>
-                                <font
-                                                class="text-o-color-4"
-                                            >[ Mail Messages Easy ]</font>
-                            </h4>
-                            <h4>
-                                <span style="font-size: 18px">
-                                <font
-                                                    class="text-o-color-4"
-                                                    style="color: rgb(255, 255, 255) !important"
-                                                >View and manage all Odoo messages<br
-                                                    />in one place<br
-                                                    />just like with a regular email client_<br
-                                                    /><br /></font>
-                                </span>
-                            </h4>
-                            <p style="text-align: center;">
-                                <a
-                                                href="https://apps.odoo.com/apps/modules/15.0/prt_mail_messages/"
-                                                class="btn btn-fill-secondary rounded-circle"
-                                                data-bs-original-title=""
-                                                title=""
-                                                target="_blank"
-                                            >Mail Messages Easy App</a>
-                                <br />
-                            </p>
-                            <p style="text-align: center;">
-                                <font
-                                                class="text-o-color-4"
-                                            >*Pro version Available&amp;nbsp;</font>
-                            </p>
-                            </div>
-                            <div
-                                        class="text-center o_colored_level col-lg-3 pt0 pb0 o_animate o_animate_on_scroll o_anim_slide_in o_anim_from_left"
-                                        style="animation-delay: -0.02663s;"
-                                        data-scroll-zone-start="0"
-                                        data-scroll-zone-end="100"
-                                    >
-                            <img
-                                            src="/theme_website_cetmix/static/img/solutions_features_1_2.svg"
-                                            alt=""
-                                            class="m-3 img img-fluid o_we_custom_image"
-                                            style="width: 50% !important;"
-                                            data-original-id="871"
-                                            data-original-src="/theme_website_cetmix/static/img/solutions_features_1_2.svg"
-                                            data-mimetype="image/svg+xml"
-                                            data-resize-width="undefined"
-                                            loading="eager"
-                                        />
-                            <h4>
-                                <font class="text-o-color-4">[ Messages Filter ]</font>
-                            </h4>
-                            <h4 style="text-align: center;">
-                                <font class="text-o-color-4">
-
-                </font>
-                                <span style="font-size: 18px;">
-                                <font
-                                                    class="text-o-color-4"
-                                                > Odoo messages filter and anti-spam protection _<br
-                                                    />&amp;lt; Mail Messages Easy extension &amp;gt;<br
-                                                    /></font>
-                                </span>
-                                <br />
-                            </h4>
-                            <p style="text-align: center;">
-                                <a
-                                                href="https://apps.odoo.com/apps/modules/15.0/prt_mail_messages/"
-                                                class="btn btn-fill-secondary rounded-circle"
-                                                data-bs-original-title=""
-                                                title=""
-                                                target="_blank"
-                                            >Mail Messages Filter&amp;nbsp;App</a>
-                                <br />
-                            </p>
-                            <p style="text-align: center;">
-                                <font
-                                                class="text-o-color-4"
-                                            >*Pro version Available&amp;nbsp;</font>
-                            </p>
-                            </div>
-                            <div
-                                        class="text-center o_colored_level col-lg-3 pt0 pb0 o_animate o_animate_on_scroll bg-black-15 o_anim_slide_in o_anim_from_left"
-                                        style="animation-delay: -0.02663s;"
-                                        data-scroll-zone-start="0"
-                                        data-scroll-zone-end="100"
-                                    >
-                            <img
-                                            src="/theme_website_cetmix/static/img/solutions_features_1_3.svg"
-                                            alt=""
-                                            class="m-3 img img-fluid o_we_custom_image"
-                                            style="width: 50% !important;"
-                                            data-original-id="872"
-                                            data-original-src="/theme_website_cetmix/static/img/solutions_features_1_3.svg"
-                                            data-mimetype="image/svg+xml"
-                                            data-resize-width="undefined"
-                                            loading="eager"
-                                        />
-                            <h4>
-                                <font
-                                                class="text-o-color-4"
-                                            >[ Mail Messages&amp;nbsp;Drafts&amp;nbsp;&amp;nbsp;]</font>
-                            </h4>
-                            <h4 style="text-align: center;">
-                                <font class="text-o-color-4" />
-                                <font class="text-o-color-4" style="">
-                                <span
-                                                    style="font-size: 18px;"
-                                                >Save message as draft&amp;nbsp;<br
-                                                    />to send it later_</span>
-                                <br />
-                                <span
-                                                    style="font-size: 18px;"
-                                                >&amp;lt; Mail Messages Easy extension &amp;gt;</span>
-                                <br />
-                                </font>
-                                <br />
-                            </h4>
-                            <p style="text-align: center;">
-                                <a
-                                                href="http://Draft"
-                                                class="btn btn-fill-secondary rounded-circle"
-                                                data-bs-original-title=""
-                                                title=""
-                                                target="_blank"
-                                            >Mail Messages Drafts&amp;nbsp;App</a>
-                            </p>
-                            </div>
-                            <div
-                                        class="text-center o_colored_level col-lg-3 pt0 pb0 o_animate o_animate_on_scroll o_anim_slide_in o_anim_from_left o_we_force_no_transition"
-                                        style="animation-delay: -0.02663s;"
-                                        data-scroll-zone-start="0"
-                                        data-scroll-zone-end="100"
-                                    >
-                            <img
-                                            src="/theme_website_cetmix/static/img/solutions_features_1_4.svg"
-                                            alt=""
-                                            class="m-3 img img-fluid o_we_custom_image"
-                                            style="width: 50% !important;"
-                                            data-original-id="873"
-                                            data-original-src="/theme_website_cetmix/static/img/solutions_features_1_4.svg"
-                                            data-mimetype="image/svg+xml"
-                                            data-resize-width="undefined"
-                                            loading="eager"
-                                        />
-                            <h4>
-                                <font
-                                                class="text-o-color-4"
-                                            >[ E-mail Fields Tweaks&amp;nbsp;&amp;nbsp;]</font>
-                            </h4>
-                            <h4 style="text-align: center;">
-                                <font class="text-o-color-4" />
-                                <font class="text-o-color-4" style="">
-                                <span
-                                                    style="font-size: 18px;"
-                                                >Customize outgoing e-mail&amp;nbsp;<br
-                                                    /> fields_</span>
-                                <br />
-                                <span
-                                                    style="font-size: 18px;"
-                                                >&amp;lt; Mail Messages Easy extension &amp;gt;</span>
-                                <br />
-                                </font>
-                                <br />
-                            </h4>
-                            <p style="text-align: center;">
-                                <a
-                                                href="https://apps.odoo.com/apps/modules/14.0/prt_email_from/"
-                                                class="btn btn-fill-secondary rounded-circle o_we_force_no_transition"
-                                                data-bs-original-title=""
-                                                title=""
-                                                target="_blank"
-                                                aria-describedby="popover764410"
-                                            >E-mail Fields Tweaks&amp;nbsp;App</a>
-                                <br />
-                            </p>
-                            <p style="text-align: center;">
-                                <font
-                                                class="text-o-color-4"
-                                            >*Pro version Available&amp;nbsp;</font>
-                            </p>
-                            </div>
-                        </div>
-                        </div>
-                    </section>
-                    <section
-                            class="s_text_block o_colored_level pt88 pb104"
-                            data-snippet="s_text_block"
-                            style="position: relative; background-image: none;"
-                            data-oe-shape-data="{&quot;shape&quot;:&quot;web_editor/Airy/03_001&quot;,&quot;colors&quot;:{&quot;c5&quot;:&quot;#D6D6E7&quot;},&quot;flip&quot;:[]}"
-                            data-name="Custom Custom Text"
+                            class="row o_we_force_no_transition"
                             data-bs-original-title=""
                             title=""
-                            aria-describedby="tooltip617334"
+                            aria-describedby="tooltip858845"
                         >
-                        <div
-                                class="o_we_shape o_web_editor_Airy_03_001"
-                                style="background-image: url(&quot;/web_editor/shape/web_editor/Airy/03_001.svg?c5=%23D6D6E7&quot;);"
-                            />
-                        <div class="s_allow_columns container">
+                            <div
+                                class="text-center o_colored_level col-lg-3 pt0 pb0 o_animate o_animate_on_scroll bg-black-15 o_anim_slide_in o_anim_from_left"
+                                style="animation-delay: -0.02663s;"
+                                data-scroll-zone-start="0"
+                                data-scroll-zone-end="100"
+                            >
+                                <img
+                                    src="/theme_website_cetmix/static/img/solutions_features_1_1.svg"
+                                    alt=""
+                                    class="m-3 img img-fluid o_we_custom_image"
+                                    style="width: 50% !important;"
+                                    data-original-id="870"
+                                    data-original-src="/theme_website_cetmix/static/img/solutions_features_1_1.svg"
+                                    data-mimetype="image/svg+xml"
+                                    data-resize-width="undefined"
+                                    loading="eager"
+                                />
+                                <h4>
+                                    <font class="text-o-color-4">[ Mail Messages Easy ]
+                                    </font>
+                                </h4>
+                                <h4>
+                                    <span style="font-size: 18px">
+                                        <font
+                                            class="text-o-color-4"
+                                            style="color: rgb(255, 255, 255) !important"
+                                        >View and manage all Odoo messages<br
+                                            />in one place<br
+                                            />just like with a regular email client_
+                                            <br />
+                                            <br />
+                                        </font>
+                                    </span>
+                                </h4>
+                                <p style="text-align: center;">
+                                    <a
+                                        href="https://apps.odoo.com/apps/modules/15.0/prt_mail_messages/"
+                                        class="btn btn-fill-secondary rounded-circle"
+                                        data-bs-original-title=""
+                                        title=""
+                                        target="_blank"
+                                    >Mail Messages Easy App
+                                    </a>
+                                    <br />
+                                </p>
+                                <p style="text-align: center;">
+                                    <font
+                                        class="text-o-color-4"
+                                    >*Pro version Available&amp;nbsp;
+                                    </font>
+                                </p>
+                            </div>
+                            <div
+                                class="text-center o_colored_level col-lg-3 pt0 pb0 o_animate o_animate_on_scroll o_anim_slide_in o_anim_from_left"
+                                style="animation-delay: -0.02663s;"
+                                data-scroll-zone-start="0"
+                                data-scroll-zone-end="100"
+                            >
+                                <img
+                                    src="/theme_website_cetmix/static/img/solutions_features_1_2.svg"
+                                    alt=""
+                                    class="m-3 img img-fluid o_we_custom_image"
+                                    style="width: 50% !important;"
+                                    data-original-id="871"
+                                    data-original-src="/theme_website_cetmix/static/img/solutions_features_1_2.svg"
+                                    data-mimetype="image/svg+xml"
+                                    data-resize-width="undefined"
+                                    loading="eager"
+                                />
+                                <h4>
+                                    <font
+                                        class="text-o-color-4"
+                                    >[ Messages Filter ]</font>
+                                </h4>
+                                <h4 style="text-align: center;">
+                                    <font class="text-o-color-4">
+
+                                    </font>
+                                    <span style="font-size: 18px;">
+                                        <font
+                                            class="text-o-color-4"
+                                        >Odoo messages filter and anti-spam protection _<br
+                                            />&amp;lt; Mail Messages Easy extension &amp;gt;
+                                            <br />
+                                        </font>
+                                    </span>
+                                    <br />
+                                </h4>
+                                <p style="text-align: center;">
+                                    <a
+                                        href="https://apps.odoo.com/apps/modules/15.0/prt_mail_messages/"
+                                        class="btn btn-fill-secondary rounded-circle"
+                                        data-bs-original-title=""
+                                        title=""
+                                        target="_blank"
+                                    >Mail Messages Filter&amp;nbsp;App
+                                    </a>
+                                    <br />
+                                </p>
+                                <p style="text-align: center;">
+                                    <font
+                                        class="text-o-color-4"
+                                    >*Pro version Available&amp;nbsp;
+                                    </font>
+                                </p>
+                            </div>
+                            <div
+                                class="text-center o_colored_level col-lg-3 pt0 pb0 o_animate o_animate_on_scroll bg-black-15 o_anim_slide_in o_anim_from_left"
+                                style="animation-delay: -0.02663s;"
+                                data-scroll-zone-start="0"
+                                data-scroll-zone-end="100"
+                            >
+                                <img
+                                    src="/theme_website_cetmix/static/img/solutions_features_1_3.svg"
+                                    alt=""
+                                    class="m-3 img img-fluid o_we_custom_image"
+                                    style="width: 50% !important;"
+                                    data-original-id="872"
+                                    data-original-src="/theme_website_cetmix/static/img/solutions_features_1_3.svg"
+                                    data-mimetype="image/svg+xml"
+                                    data-resize-width="undefined"
+                                    loading="eager"
+                                />
+                                <h4>
+                                    <font
+                                        class="text-o-color-4"
+                                    >[ Mail Messages&amp;nbsp;Drafts&amp;nbsp;&amp;nbsp;]
+                                    </font>
+                                </h4>
+                                <h4 style="text-align: center;">
+                                    <font class="text-o-color-4" />
+                                    <font class="text-o-color-4" style="">
+                                        <span
+                                            style="font-size: 18px;"
+                                        >Save message as draft&amp;nbsp;<br
+                                            />to send it later_
+                                        </span>
+                                        <br />
+                                        <span
+                                            style="font-size: 18px;"
+                                        >&amp;lt; Mail Messages Easy extension &amp;gt;
+                                        </span>
+                                        <br />
+                                    </font>
+                                    <br />
+                                </h4>
+                                <p style="text-align: center;">
+                                    <a
+                                        href="http://Draft"
+                                        class="btn btn-fill-secondary rounded-circle"
+                                        data-bs-original-title=""
+                                        title=""
+                                        target="_blank"
+                                    >Mail Messages Drafts&amp;nbsp;App
+                                    </a>
+                                </p>
+                            </div>
+                            <div
+                                class="text-center o_colored_level col-lg-3 pt0 pb0 o_animate o_animate_on_scroll o_anim_slide_in o_anim_from_left o_we_force_no_transition"
+                                style="animation-delay: -0.02663s;"
+                                data-scroll-zone-start="0"
+                                data-scroll-zone-end="100"
+                            >
+                                <img
+                                    src="/theme_website_cetmix/static/img/solutions_features_1_4.svg"
+                                    alt=""
+                                    class="m-3 img img-fluid o_we_custom_image"
+                                    style="width: 50% !important;"
+                                    data-original-id="873"
+                                    data-original-src="/theme_website_cetmix/static/img/solutions_features_1_4.svg"
+                                    data-mimetype="image/svg+xml"
+                                    data-resize-width="undefined"
+                                    loading="eager"
+                                />
+                                <h4>
+                                    <font
+                                        class="text-o-color-4"
+                                    >[ E-mail Fields Tweaks&amp;nbsp;&amp;nbsp;]
+                                    </font>
+                                </h4>
+                                <h4 style="text-align: center;">
+                                    <font class="text-o-color-4" />
+                                    <font class="text-o-color-4" style="">
+                                        <span
+                                            style="font-size: 18px;"
+                                        >Customize outgoing e-mail&amp;nbsp;
+                                            <br />
+                                            fields_
+                                        </span>
+                                        <br />
+                                        <span
+                                            style="font-size: 18px;"
+                                        >&amp;lt; Mail Messages Easy extension &amp;gt;
+                                        </span>
+                                        <br />
+                                    </font>
+                                    <br />
+                                </h4>
+                                <p style="text-align: center;">
+                                    <a
+                                        href="https://apps.odoo.com/apps/modules/14.0/prt_email_from/"
+                                        class="btn btn-fill-secondary rounded-circle o_we_force_no_transition"
+                                        data-bs-original-title=""
+                                        title=""
+                                        target="_blank"
+                                        aria-describedby="popover764410"
+                                    >E-mail Fields Tweaks&amp;nbsp;App
+                                    </a>
+                                    <br />
+                                </p>
+                                <p style="text-align: center;">
+                                    <font
+                                        class="text-o-color-4"
+                                    >*Pro version Available&amp;nbsp;
+                                    </font>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <section
+                    class="s_text_block o_colored_level pt88 pb104"
+                    data-snippet="s_text_block"
+                    style="position: relative; background-image: none;"
+                    data-oe-shape-data="{&quot;shape&quot;:&quot;web_editor/Airy/03_001&quot;,&quot;colors&quot;:{&quot;c5&quot;:&quot;#D6D6E7&quot;},&quot;flip&quot;:[]}"
+                    data-name="Custom Custom Text"
+                    data-bs-original-title=""
+                    title=""
+                    aria-describedby="tooltip617334"
+                >
+                    <div
+                        class="o_we_shape o_web_editor_Airy_03_001"
+                        style="background-image: url(&quot;/web_editor/shape/web_editor/Airy/03_001.svg?c5=%23D6D6E7&quot;);"
+                    />
+                    <div class="s_allow_columns container">
                         <div class="row align-items-start" style="">
                             <div
-                                        class="g- g-height-3 o_colored_level col-lg-6"
-                                        style=""
-                                    >
-                            <h1>CHECK OUR ODOO APPS _<br /></h1>
+                                class="g- g-height-3 o_colored_level col-lg-6"
+                                style=""
+                            >
+                                <h1>CHECK OUR ODOO APPS _
+                                    <br />
+                                </h1>
                             </div>
                             <div
-                                        class="g- g-height-3 o_colored_level col-lg-3 offset-lg-3"
-                                        style=""
-                                    >
-                            <h1>
-                                <a
-                                                href="https://apps.odoo.com/apps/modules/browse?author=Cetmix"
-                                                class="btn btn-primary rounded-circle btn-lg"
-                                                data-bs-original-title=""
-                                                title=""
-                                                target="_blank"
-                                            >Discover more</a>
-                                <br />
-                            </h1>
-                            </div>
-                        </div>
-                        </div>
-                    </section>
-                    <section
-                            class="s_features o_colored_level pt32 pb64"
-                            data-snippet="s_features"
-                            data-name="Features"
-                            style="position: relative; background-image: none;"
-                            data-bs-original-title=""
-                            title=""
-                            aria-describedby="tooltip929144"
-                        >
-                        <div class="container">
-                        <div
-                                    class="row"
-                                    data-bs-original-title=""
-                                    title=""
-                                    aria-describedby="tooltip858845"
-                                >
-                            <div
-                                        class="text-center o_colored_level pt0 pb0 o_animate o_animate_on_scroll col-lg-4 bg-black-15 o_anim_slide_in o_anim_from_left"
-                                        style="animation-delay: -0.11356s;"
-                                        data-scroll-zone-start="0"
-                                        data-scroll-zone-end="100"
-                                    >
-                            <img
-                                            src="/theme_website_cetmix/static/img/solutions_features_2_1.svg"
-                                            alt=""
-                                            class="m-3 img img-fluid o_we_custom_image"
-                                            style="width: 50% !important;"
-                                            data-original-id="861"
-                                            data-original-src="/theme_website_cetmix/static/img/solutions_features_2_1.svg"
-                                            data-mimetype="image/svg+xml"
-                                            data-resize-width="undefined"
-                                            loading="eager"
-                                        />
-                            <h4>
-                                [&amp;nbsp;Open PDF&amp;nbsp;Attachments in Browser ]
-                            </h4>
-                            <h4><span style="font-size: 18px"><font
-                                                    class="text-o-color-5"
-                                                    style=""
-                                                >Preview PDF reports in browser instead of downloading_</font></span><br
-                                            /><br /><br /><a
-                                                href="https://apps.odoo.com/apps/modules/15.0/prt_report_attachment_preview/"
-                                                class="btn btn-fill-primary rounded-circle"
-                                                data-bs-original-title=""
-                                                title=""
-                                                target="_blank"
-                                            >Open PDF Attachments App</a>
-                                &amp;nbsp;<br /></h4>
-                            </div>
-                            <div
-                                        class="text-center o_colored_level pb0 o_animate o_animate_on_scroll col-lg-4 pt0 o_anim_slide_in o_anim_from_left"
-                                        style="animation-delay: -0.11356s;"
-                                        data-scroll-zone-start="0"
-                                        data-scroll-zone-end="100"
+                                class="g- g-height-3 o_colored_level col-lg-3 offset-lg-3"
+                                style=""
+                            >
+                                <h1>
+                                    <a
+                                        href="https://apps.odoo.com/apps/modules/browse?author=Cetmix"
+                                        class="btn btn-primary rounded-circle btn-lg"
                                         data-bs-original-title=""
                                         title=""
-                                        aria-describedby="tooltip716522"
-                                    >
-                            <img
-                                            src="/theme_website_cetmix/static/img/solutions_features_2_2.svg"
-                                            alt=""
-                                            class="m-3 img img-fluid o_we_custom_image o_we_force_no_transition"
-                                            style="width: 50% !important;"
-                                            data-original-id="806"
-                                            data-original-src="/theme_website_cetmix/static/img/solutions_features_2_2.svg"
-                                            data-mimetype="image/svg+xml"
-                                            data-resize-width="undefined"
-                                            loading="eager"
-                                        />
-                            <h4>
-                                [&amp;nbsp;Advanced Auto Reordering Rules ]
-                            </h4>
-                            <h4 style="text-align: center;">
-                                <span style="font-size: 18px;">
-                                <font
-                                                    class="text-o-color-5"
-                                                >Create and manage reordering rules using templates and&amp;nbsp;automatic reordering rule order point generator_</font>
-                                </span>
-                                <br />
-                                <br />
-                                <a
-                                                href="https://apps.odoo.com/apps/modules/15.0/cx_product_auto_reorder/"
-                                                class="btn btn-fill-primary rounded-circle"
-                                                data-bs-original-title=""
-                                                title=""
-                                                target="_blank"
-                                            >Auto Reordering Rules&amp;nbsp;App</a>
-                                <br />
-                            </h4>
-                            <p style="text-align: center;">&amp;nbsp;<br /></p>
-                            </div>
-                            <div
-                                        class="text-center o_colored_level pt0 o_animate o_animate_on_scroll col-lg-4 bg-black-15 pb0 o_anim_slide_in o_anim_from_left"
-                                        style="animation-delay: -0.11356s;"
-                                        data-scroll-zone-start="0"
-                                        data-scroll-zone-end="100"
-                                        data-bs-original-title=""
-                                        title=""
-                                        aria-describedby="tooltip100317"
-                                    >
-                            <img
-                                            src="/theme_website_cetmix/static/img/solutions_features_2_3.svg"
-                                            alt=""
-                                            class="m-3 img img-fluid o_we_custom_image"
-                                            style="width: 50% !important;"
-                                            data-original-id="862"
-                                            data-original-src="/theme_website_cetmix/static/img/solutions_features_2_3.svg"
-                                            data-mimetype="image/svg+xml"
-                                            data-resize-width="undefined"
-                                            loading="eager"
-                                        />
-                            <h4>
-                                [ Odoo&amp;nbsp;UML Export&amp;nbsp;]
-                            </h4>
-                            <h4><span style="font-size: 18px"><font
-                                                    class="text-o-color-5"
-                                                    style=""
-                                                >Export Odoo module and&amp;nbsp;data structures&amp;nbsp;<br
-                                                    />into Plant UML_</font></span><br
-                                            /><br /><a
-                                                href="https://apps.odoo.com/apps/modules/15.0/cx_odoo_plantuml/"
-                                                class="btn btn-fill-primary rounded-circle"
-                                                data-bs-original-title=""
-                                                title=""
-                                                target="_blank"
-                                            >Odoo UML Export App</a>
-                                &amp;nbsp;<br /></h4>
+                                        target="_blank"
+                                    >Discover more
+                                    </a>
+                                    <br />
+                                </h1>
                             </div>
                         </div>
-                        </div>
-                    </section>
-                    <section
-                            class="s_cover parallax bg-black-50 o_colored_level s_parallax_is_fixed s_parallax_no_overflow_hidden pt256 pb256"
-                            data-scroll-background-ratio="1"
-                            data-snippet="s_cover"
-                            style="background-image: none; position: relative;"
-                            data-bs-original-title=""
-                            title=""
-                            aria-describedby="tooltip986307"
-                            data-name="Custom Custom Custom Cover"
-                        >
-                        <span
-                                class="s_parallax_bg oe_img_bg o_bg_img_center"
-                                style="background-image: url(/theme_website_cetmix/static/img/solutions_cover_2_1.jpg);"
-                                data-original-id="868"
-                                data-original-src="/theme_website_cetmix/static/img/solutions_cover_2_1.jpg"
-                                data-mimetype="image/jpeg"
-                                data-resize-width="1920"
-                                data-gl-filter="xpro"
-                            />
-                        <div class="s_allow_columns container">
-                        <div
-                                    class="row align-items-start"
-                                    style=""
-                                    data-bs-original-title=""
-                                    title=""
-                                    aria-describedby="tooltip106677"
-                                >
-                            <div
-                                        class="o_colored_level g- g-height-3 bg-black-15 col-lg-8 pt24"
-                                        style=""
-                                    >
-                            <h4>
-                            </h4>
-                            <h1 style="text-align: left;">
-                                START GROWING YOUR BUSINESS TODAY&amp;nbsp;&amp;gt;<br
-                                            />
-                            </h1>
-                            <h4>
-                                with a proper pilot&amp;nbsp;in the world of Odoo _</h4>
-                            <p>
-                                <br />
-                            </p>
-                            </div>
-                            <div
-                                        class="o_colored_level g-height-3 g- col-lg-3 offset-lg-1 pb88 pt32"
-                                        style=""
-                                        data-bs-original-title=""
-                                        title=""
-                                        aria-describedby="tooltip453526"
-                                    >
-                            <a
-                                            href="/contactus"
-                                            class="mb-2 o_anim_fade_in o_animate o_visible btn btn-fill-secondary rounded-circle btn-lg"
-                                            data-bs-original-title=""
-                                            title=""
-                                            style=""
-                                        >
-                                <font
-                                                data-bs-original-title=""
-                                                title=""
-                                                aria-describedby="tooltip163177"
-                                                style=""
-                                                class="text-o-color-2"
-                                            >Contact us​​​​​​​​</font>
-                            </a>
-                            <br />
-                            </div>
-                        </div>
-                        </div>
-                    </section>
                     </div>
-                </t>
-            </t>
-        </field>
-    </record>
+                </section>
+                <section
+                    class="s_features o_colored_level pt32 pb64"
+                    data-snippet="s_features"
+                    data-name="Features"
+                    style="position: relative; background-image: none;"
+                    data-bs-original-title=""
+                    title=""
+                    aria-describedby="tooltip929144"
+                >
+                    <div class="container">
+                        <div
+                            class="row"
+                            data-bs-original-title=""
+                            title=""
+                            aria-describedby="tooltip858845"
+                        >
+                            <div
+                                class="text-center o_colored_level pt0 pb0 o_animate o_animate_on_scroll col-lg-4 bg-black-15 o_anim_slide_in o_anim_from_left"
+                                style="animation-delay: -0.11356s;"
+                                data-scroll-zone-start="0"
+                                data-scroll-zone-end="100"
+                            >
+                                <img
+                                    src="/theme_website_cetmix/static/img/solutions_features_2_1.svg"
+                                    alt=""
+                                    class="m-3 img img-fluid o_we_custom_image"
+                                    style="width: 50% !important;"
+                                    data-original-id="861"
+                                    data-original-src="/theme_website_cetmix/static/img/solutions_features_2_1.svg"
+                                    data-mimetype="image/svg+xml"
+                                    data-resize-width="undefined"
+                                    loading="eager"
+                                />
+                                <h4>
+                                    [&amp;nbsp;Open PDF&amp;nbsp;Attachments in Browser ]
+                                </h4>
+                                <h4>
+                                    <span style="font-size: 18px">
+                                        <font
+                                            class="text-o-color-5"
+                                            style=""
+                                        >Preview PDF reports in browser instead of downloading_
+                                        </font>
+                                    </span>
+                                    <br />
+                                    <br />
+                                    <br />
+                                    <a
+                                        href="https://apps.odoo.com/apps/modules/15.0/prt_report_attachment_preview/"
+                                        class="btn btn-fill-primary rounded-circle"
+                                        data-bs-original-title=""
+                                        title=""
+                                        target="_blank"
+                                    >Open PDF Attachments App
+                                    </a>
+                                    &amp;nbsp;
+                                    <br />
+                                </h4>
+                            </div>
+                            <div
+                                class="text-center o_colored_level pb0 o_animate o_animate_on_scroll col-lg-4 pt0 o_anim_slide_in o_anim_from_left"
+                                style="animation-delay: -0.11356s;"
+                                data-scroll-zone-start="0"
+                                data-scroll-zone-end="100"
+                                data-bs-original-title=""
+                                title=""
+                                aria-describedby="tooltip716522"
+                            >
+                                <img
+                                    src="/theme_website_cetmix/static/img/solutions_features_2_2.svg"
+                                    alt=""
+                                    class="m-3 img img-fluid o_we_custom_image o_we_force_no_transition"
+                                    style="width: 50% !important;"
+                                    data-original-id="806"
+                                    data-original-src="/theme_website_cetmix/static/img/solutions_features_2_2.svg"
+                                    data-mimetype="image/svg+xml"
+                                    data-resize-width="undefined"
+                                    loading="eager"
+                                />
+                                <h4>
+                                    [&amp;nbsp;Advanced Auto Reordering Rules ]
+                                </h4>
+                                <h4 style="text-align: center;">
+                                    <span style="font-size: 18px;">
+                                        <font
+                                            class="text-o-color-5"
+                                        >Create and manage reordering rules using templates and&amp;nbsp;automatic
+                                            reordering rule order point generator_
+                                        </font>
+                                    </span>
+                                    <br />
+                                    <br />
+                                    <a
+                                        href="https://apps.odoo.com/apps/modules/15.0/cx_product_auto_reorder/"
+                                        class="btn btn-fill-primary rounded-circle"
+                                        data-bs-original-title=""
+                                        title=""
+                                        target="_blank"
+                                    >Auto Reordering Rules&amp;nbsp;App
+                                    </a>
+                                    <br />
+                                </h4>
+                                <p style="text-align: center;">&amp;nbsp;
+                                    <br />
+                                </p>
+                            </div>
+                            <div
+                                class="text-center o_colored_level pt0 o_animate o_animate_on_scroll col-lg-4 bg-black-15 pb0 o_anim_slide_in o_anim_from_left"
+                                style="animation-delay: -0.11356s;"
+                                data-scroll-zone-start="0"
+                                data-scroll-zone-end="100"
+                                data-bs-original-title=""
+                                title=""
+                                aria-describedby="tooltip100317"
+                            >
+                                <img
+                                    src="/theme_website_cetmix/static/img/solutions_features_2_3.svg"
+                                    alt=""
+                                    class="m-3 img img-fluid o_we_custom_image"
+                                    style="width: 50% !important;"
+                                    data-original-id="862"
+                                    data-original-src="/theme_website_cetmix/static/img/solutions_features_2_3.svg"
+                                    data-mimetype="image/svg+xml"
+                                    data-resize-width="undefined"
+                                    loading="eager"
+                                />
+                                <h4>
+                                    [ Odoo&amp;nbsp;UML Export&amp;nbsp;]
+                                </h4>
+                                <h4>
+                                    <span style="font-size: 18px">
+                                        <font
+                                            class="text-o-color-5"
+                                            style=""
+                                        >Export Odoo module and&amp;nbsp;data structures&amp;nbsp;<br
+                                            />into Plant UML_
+                                        </font>
+                                    </span>
+                                    <br />
+                                    <br />
+                                    <a
+                                        href="https://apps.odoo.com/apps/modules/15.0/cx_odoo_plantuml/"
+                                        class="btn btn-fill-primary rounded-circle"
+                                        data-bs-original-title=""
+                                        title=""
+                                        target="_blank"
+                                    >Odoo UML Export App
+                                    </a>
+                                    &amp;nbsp;
+                                    <br />
+                                </h4>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <section
+                    class="s_cover parallax bg-black-50 o_colored_level s_parallax_is_fixed s_parallax_no_overflow_hidden pt256 pb256"
+                    data-scroll-background-ratio="1"
+                    data-snippet="s_cover"
+                    style="background-image: none; position: relative;"
+                    data-bs-original-title=""
+                    title=""
+                    aria-describedby="tooltip986307"
+                    data-name="Custom Custom Custom Cover"
+                >
+                    <span
+                        class="s_parallax_bg oe_img_bg o_bg_img_center"
+                        style="background-image: url(/theme_website_cetmix/static/img/solutions_cover_1_2.jpg);"
+                        data-original-id="868"
+                        data-original-src="/theme_website_cetmix/static/img/solutions_cover_1_2.jpg"
+                        data-mimetype="image/jpeg"
+                        data-resize-width="1920"
+                        data-gl-filter="xpro"
+                    />
+                    <div class="s_allow_columns container">
+                        <div
+                            class="row align-items-start"
+                            style=""
+                            data-bs-original-title=""
+                            title=""
+                            aria-describedby="tooltip106677"
+                        >
+                            <div
+                                class="o_colored_level g- g-height-3 bg-black-15 col-lg-8 pt24"
+                                style=""
+                            >
+                                <h4>
+                                </h4>
+                                <h1 style="text-align: left;">
+                                    START GROWING YOUR BUSINESS TODAY&amp;nbsp;&amp;gt;
+                                    <br />
+                                </h1>
+                                <h4>
+                                    with a proper pilot&amp;nbsp;in the world of Odoo _
+                                </h4>
+                                <p>
+                                    <br />
+                                </p>
+                            </div>
+                            <div
+                                class="o_colored_level g-height-3 g- col-lg-3 offset-lg-1 pb88 pt32"
+                                style=""
+                                data-bs-original-title=""
+                                title=""
+                                aria-describedby="tooltip453526"
+                            >
+                                <a
+                                    href="/contactus"
+                                    class="mb-2 o_anim_fade_in o_animate o_visible btn btn-fill-secondary rounded-circle btn-lg"
+                                    data-bs-original-title=""
+                                    title=""
+                                    style=""
+                                >
+                                    <font
+                                        data-bs-original-title=""
+                                        title=""
+                                        aria-describedby="tooltip163177"
+                                        style=""
+                                        class="text-o-color-2"
+                                    >Contact us​​​​​​​​
+                                    </font>
+                                </a>
+                                <br />
+                            </div>
+                        </div>
+                    </div>
+                </section>
+            </div>
+        </t>
+    </template>
 </odoo>

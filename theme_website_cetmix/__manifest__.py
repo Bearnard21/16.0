@@ -12,10 +12,12 @@
     ],
     "external_dependencies": {},
     "data": [
+        "data/data.xml",
         "views/cx_cetmix.xml",
         "views/cx_odoo.xml",
         "views/cx_solutions.xml",
-        "data/data.xml",
+        "data/pages.xml",
+        "data/menu.xml",
         "views/cx_header.xml",
         "views/cx_homepage.xml",
     ],
@@ -28,5 +30,5 @@
     },
     "qweb": [],
     "installable": True,
-    "application": True,
+    "application": False,
 }

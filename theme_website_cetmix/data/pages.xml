@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<odoo>
+    <!-- Pages -->
+    <record id="cetmix" model="theme.website.page">
+        <field name="url">/why_cetmix</field>
+        <field name="is_published">True</field>
+        <field name="view_id" ref="why_cetmix" />
+    </record>
+
+    <record id="odoo" model="theme.website.page">
+        <field name="url">/why_odoo</field>
+        <field name="is_published">True</field>
+        <field name="view_id" ref="why_odoo" />
+    </record>
+
+    <record id="solutions" model="theme.website.page">
+        <field name="url">/our_solutions</field>
+        <field name="is_published">True</field>
+        <field name="view_id" ref="our_solutions" />
+    </record>
+</odoo>
