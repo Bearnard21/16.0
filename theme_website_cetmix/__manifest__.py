@@ -28,5 +28,5 @@
     },
     "qweb": [],
     "installable": True,
-    "application": True,
+    "application": False,
 }
