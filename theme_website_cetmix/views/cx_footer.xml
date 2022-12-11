@@ -6,6 +6,7 @@
         id="template_cx_custom_footer"
         name="Custom Footer"
         active="False"
+        priority="100"
     >
         <xpath expr="//div[@id='footer']" position="replace">
             <div
@@ -132,6 +133,7 @@
         inherit_id="website.layout"
         name="Footer Company Name"
         id="template_cx_footer_company_name"
+        priority="100"
     >
         <xpath
             expr="//footer//span[hasclass('o_footer_copyright_name')]"
