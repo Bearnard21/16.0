@@ -12,4 +12,20 @@
             <t t-out="0" />
         </nav>
     </template>
+
+    <template
+        inherit_id="website.placeholder_header_call_to_action"
+        id="template_cx_call_to_action_custom"
+        name="Header Call to Action"
+        active="True"
+    >
+        <xpath
+            expr="//div[hasclass('container')]/a[hasclass('btn_cta')]"
+            position="attributes"
+        >
+            <attribute
+                name="class"
+            >btn btn-fill-primary rounded-circle btn_cta</attribute>
+        </xpath>
+    </template>
 </odoo>

@@ -16,10 +16,12 @@
         "views/cx_cetmix.xml",
         "views/cx_odoo.xml",
         "views/cx_solutions.xml",
+        "views/cx_contact_us.xml",
+        "views/cx_header.xml",
+        "views/cx_footer.xml",
+        "views/cx_homepage.xml",
         "data/pages.xml",
         "data/menu.xml",
-        "views/cx_header.xml",
-        "views/cx_homepage.xml",
     ],
     "assets": {
         "web._assets_primary_variables": [

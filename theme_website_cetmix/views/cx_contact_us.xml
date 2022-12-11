@@ -1,0 +1,180 @@
+<?xml version="1.0" ?>
+<odoo>
+    <template
+        name="Contact Us"
+        t-name="contactus"
+        inherit_id="website.contactus"
+        id="template_cx_contact_us"
+        active="True"
+        priority="100"
+    >
+        <xpath expr="//div[@id='wrap']" position="replace">
+                <section
+                class="s_title parallax bg-black-50 o_colored_level pb168 pt208"
+                data-vcss="001"
+                data-snippet="s_title"
+                data-scroll-background-ratio="1.5"
+                data-name="Title"
+                style="background-image: none;"
+                data-bs-original-title=""
+                title=""
+                aria-describedby="tooltip344552"
+            >
+                    <span
+                    class="s_parallax_bg oe_img_bg o_bg_img_center"
+                    style="background-image: url(/theme_website_cetmix/static/img/odoo_cover_1_1.jpg); top: -129.75px; bottom: -129.75px; transform: translateY(-86px); background-position: 50% 0px;"
+                />
+                    <div class="o_we_bg_filter bg-black-50" />
+                    <div class="container">
+                    <h1>Contact us</h1>
+                    </div>
+                </section>
+                <section
+                class="s_text_block o_colored_level pt16 pb144"
+                data-snippet="s_text_block"
+                data-name="Custom Text"
+                style="background-image: none;"
+                data-bs-original-title=""
+                title=""
+                aria-describedby="tooltip871029"
+            >
+                    <div class="s_allow_columns container">
+                    <div
+                        class="row align-items-start"
+                        style=""
+                        data-bs-original-title=""
+                        title=""
+                        aria-describedby="tooltip115093"
+                    >
+                        <div
+                            class="mt-4 mt-lg-0 o_colored_level g- g-height-4 pt80 col-lg-2"
+                            style=""
+                        >
+                        <ul class="list-unstyled mb-0 ps-2">
+                            <li>
+                            <br />
+                            </li>
+                            <li>
+                            <img
+                                        src="https://cetmix-website-16.odoo.com/web/image/624-cf63a62c/M_vert_white.jpg"
+                                        alt=""
+                                        class="img-fluid mx-auto img o_we_custom_image"
+                                        data-original-id="419"
+                                        data-original-src="/web/image/419-c6a45fb4/M_vert_white.jpg"
+                                        data-mimetype="image/jpeg"
+                                        data-resize-width="690"
+                                        data-bs-original-title=""
+                                        title=""
+                                        aria-describedby="tooltip335210"
+                                        loading="lazy"
+                                        style=""
+                                    />
+                            </li>
+                            <li
+                                    data-bs-original-title=""
+                                    title=""
+                                    aria-describedby="tooltip680618"
+                                >
+                            <span class="o_force_ltr">
+                                <a
+                                            title=""
+                                            data-bs-original-title=""
+                                            href="tel:+372 602 8500"
+                                        >
+                                </a>
+                                <span style="font-size: 18px;">
+                            ​</span>
+                            </span>
+                            </li>
+                            <li>
+                            <br />
+                            </li>
+                        </ul>
+                        </div>
+                        <div
+                            class="mt-4 mt-lg-0 o_colored_level g- g-height-2 pb0 pt88 col-lg-6 offset-lg-2"
+                            style=""
+                            data-bs-original-title=""
+                            title=""
+                            aria-describedby="tooltip531413"
+                        >
+                        <h2>Let's keep in touch_</h2>
+                        <p>
+                            <br />
+                        </p>
+                        <p>
+                            <a
+                                    href="https://www.facebook.com//cetmixteam"
+                                    data-bs-original-title=""
+                                    title=""
+                                    target="_blank"
+                                >
+                            <span
+                                        class="fa fa-facebook-f bg-o-color-2 rounded-circle o_anim_fade_in o_animate o_visible"
+                                        data-bs-original-title=""
+                                        title=""
+                                        aria-describedby="tooltip421372"
+                                        style=""
+                                    />
+                            </a>
+                            <span
+                                    style="font-size: 18px;"
+                                > Facebook&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; </span>
+                            <a
+                                    href="https://twitter.com/cetmix_team"
+                                    data-bs-original-title=""
+                                    title=""
+                                    target="_blank"
+                                >
+                            <span
+                                        class="fa fa-twitter rounded-circle bg-o-color-2 o_anim_fade_in o_animate o_visible"
+                                        data-bs-original-title=""
+                                        title=""
+                                        aria-describedby="tooltip308896"
+                                        style=""
+                                    />
+                            </a>
+                            <span
+                                    style="font-size: 18px;"
+                                > Twitter&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; </span>
+                            <a
+                                    href="https://www.linkedin.com/company/cetmix/"
+                                    data-bs-original-title=""
+                                    title=""
+                                    target="_blank"
+                                >
+                            <span
+                                        class="fa fa-linkedin bg-o-color-2 rounded-circle o_anim_fade_in o_animate o_visible"
+                                        data-bs-original-title=""
+                                        title=""
+                                        aria-describedby="tooltip505174"
+                                        style=""
+                                    />
+                            </a>
+                            <span
+                                    style="font-size: 18px;"
+                                > Linked In&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; </span>
+                            <a href="tel:+372 602 8500">
+                            <span
+                                        class="fa fa-whatsapp bg-o-color-2 rounded-circle o_anim_fade_in o_animate o_visible"
+                                        data-bs-original-title=""
+                                        title=""
+                                        aria-describedby="tooltip939509"
+                                        style=""
+                                    />
+                            </a>
+                            <span
+                                    style="font-size: 18px;"
+                                    data-bs-original-title=""
+                                    title=""
+                                    aria-describedby="tooltip542084"
+                                > +372 602&amp;nbsp; 8500</span>
+                            <br />
+                        </p>
+                        </div>
+                    </div>
+                    </div>
+                </section>
+        </xpath>
+    </template>
+</odoo>

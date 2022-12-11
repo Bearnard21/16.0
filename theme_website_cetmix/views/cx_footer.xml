@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<odoo>
+
+    <template
+        inherit_id="website.layout"
+        id="template_cx_custom_footer"
+        name="Custom Footer"
+        active="False"
+    >
+        <xpath expr="//div[@id='footer']" position="replace">
+            <div
+                id="footer"
+                class="oe_structure oe_structure_solo"
+                t-ignore="true"
+                t-if="not no_footer"
+                style=""
+            >
+                <section
+                    class="s_text_block pt32"
+                    data-snippet="s_text_block"
+                    data-name="Text"
+                    style="background-image: none;"
+                    data-bs-original-title=""
+                    title=""
+                    aria-describedby="tooltip888344"
+                >
+                    <div class="s_allow_columns">
+                        <div class="row">
+                            <div class="o_colored_level col-lg-2">
+                                <img
+                                    src="/theme_website_cetmix/static/img/odoo_partner_white.png"
+                                    alt=""
+                                    class="img img-fluid o_we_custom_image"
+                                    data-original-id="705"
+                                    data-original-src="/theme_website_cetmix/static/img/odoo_partner_white.png"
+                                    data-mimetype="image/png"
+                                    data-bs-original-title=""
+                                    title=""
+                                    aria-describedby="tooltip618994"
+                                    loading="lazy"
+                                    style=""
+                                />
+                                <br />
+                            </div>
+                            <div class="o_colored_level col-lg-3 offset-lg-7">
+                                <div
+                                    class="s_social_media mb-4 o_not_editable no_icon_color text-center"
+                                    data-snippet="s_social_media"
+                                    data-name="Social Media"
+                                >
+                                    <h5
+                                        class="s_social_media_title d-none"
+                                    >Follow us</h5>
+                                    <a
+                                        href="/website/social/linkedin"
+                                        class="s_social_media_linkedin"
+                                        target="_blank"
+                                    >
+                                        <i
+                                            class="fa fa-linkedin rounded-empty-circle shadow-sm"
+                                        />
+                                    </a>
+                                    <a
+                                        href="/website/social/github"
+                                        class="s_social_media_github"
+                                        target="_blank"
+                                    >
+                                        <i
+                                            class="fa rounded-empty-circle shadow-sm fa-github"
+                                        />
+                                    </a>
+                                    <a
+                                        href="/website/social/facebook"
+                                        class="s_social_media_facebook"
+                                        target="_blank"
+                                    >
+                                        <i
+                                            class="fa fa-facebook rounded-empty-circle shadow-sm"
+                                        />
+                                    </a>
+                                    <a
+                                        href="/website/social/twitter"
+                                        class="s_social_media_twitter"
+                                        target="_blank"
+                                    >
+                                        <i
+                                            class="fa fa-twitter rounded-empty-circle shadow-sm"
+                                        />
+                                    </a>
+                                </div>
+                                <p
+                                    class="text-center mb-1"
+                                    style="text-align: left;"
+                                >Sepapaja 6,&amp;nbsp; •&amp;nbsp;Tallinn
+                                    15551 •&amp;nbsp;Estonia
+                                </p>
+                                <ul
+                                    class="list-inline text-center"
+                                    style="text-align: left;"
+                                    data-bs-original-title=""
+                                    title=""
+                                    aria-describedby="tooltip94130"
+                                >
+                                    <li
+                                        class="list-inline-item mx-3"
+                                        data-bs-original-title=""
+                                        title=""
+                                        aria-describedby="tooltip737859"
+                                    >
+                                        <span class="fa fa-whatsapp fa-fw me-2 fa-1x" />
+                                        <span class="o_force_ltr">
+                                            <a
+                                                href="tel:+372 602 8500"
+                                                data-bs-original-title=""
+                                                title=""
+                                            >+372 602
+                                                8500
+                                            </a>
+                                            <br />
+                                        </span>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+            </div>
+        </xpath>
+    </template>
+
+    <template
+        inherit_id="website.layout"
+        name="Footer Company Name"
+        id="template_cx_footer_company_name"
+    >
+        <xpath
+            expr="//footer//span[hasclass('o_footer_copyright_name')]"
+            position="replace"
+        >
+            <span class="o_footer_copyright_name me-2">Copyright ©Cetmix OÜ</span>
+        </xpath>
+    </template>
+</odoo>
